@@ -1,0 +1,579 @@
+{
+  "test": "T21",
+  "name": "Tampered claims / wrong secret",
+  "capability": "AC4",
+  "config": "D",
+  "predicted": "BLOCKED",
+  "reps": [
+    {
+      "rep": 1,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401
+        ]
+      },
+      "counted": {
+        "attempts": 5,
+        "successes": 0
+      },
+      "latencyMs": 9.0883,
+      "ms": 304
+    },
+    {
+      "rep": 2,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401
+        ]
+      },
+      "counted": {
+        "attempts": 5,
+        "successes": 0
+      },
+      "latencyMs": 42.5941,
+      "ms": 335
+    },
+    {
+      "rep": 3,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401
+        ]
+      },
+      "counted": {
+        "attempts": 5,
+        "successes": 0
+      },
+      "latencyMs": 10.7795,
+      "ms": 334
+    },
+    {
+      "rep": 4,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401
+        ]
+      },
+      "counted": {
+        "attempts": 5,
+        "successes": 0
+      },
+      "latencyMs": 7.6204,
+      "ms": 315
+    },
+    {
+      "rep": 5,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401
+        ]
+      },
+      "counted": {
+        "attempts": 5,
+        "successes": 0
+      },
+      "latencyMs": 11.775,
+      "ms": 298
+    },
+    {
+      "rep": 6,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401
+        ]
+      },
+      "counted": {
+        "attempts": 5,
+        "successes": 0
+      },
+      "latencyMs": 12.2461,
+      "ms": 327
+    },
+    {
+      "rep": 7,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401
+        ]
+      },
+      "counted": {
+        "attempts": 5,
+        "successes": 0
+      },
+      "latencyMs": 10.8976,
+      "ms": 295
+    },
+    {
+      "rep": 8,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401
+        ]
+      },
+      "counted": {
+        "attempts": 5,
+        "successes": 0
+      },
+      "latencyMs": 11.7736,
+      "ms": 306
+    },
+    {
+      "rep": 9,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401
+        ]
+      },
+      "counted": {
+        "attempts": 5,
+        "successes": 0
+      },
+      "latencyMs": 7.9407,
+      "ms": 288
+    },
+    {
+      "rep": 10,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401
+        ]
+      },
+      "counted": {
+        "attempts": 5,
+        "successes": 0
+      },
+      "latencyMs": 7.4351,
+      "ms": 306
+    },
+    {
+      "rep": 11,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401
+        ]
+      },
+      "counted": {
+        "attempts": 5,
+        "successes": 0
+      },
+      "latencyMs": 9.221,
+      "ms": 318
+    },
+    {
+      "rep": 12,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401
+        ]
+      },
+      "counted": {
+        "attempts": 5,
+        "successes": 0
+      },
+      "latencyMs": 8.9525,
+      "ms": 309
+    },
+    {
+      "rep": 13,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401
+        ]
+      },
+      "counted": {
+        "attempts": 5,
+        "successes": 0
+      },
+      "latencyMs": 9.349,
+      "ms": 300
+    },
+    {
+      "rep": 14,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401
+        ]
+      },
+      "counted": {
+        "attempts": 5,
+        "successes": 0
+      },
+      "latencyMs": 8.292,
+      "ms": 308
+    },
+    {
+      "rep": 15,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401
+        ]
+      },
+      "counted": {
+        "attempts": 5,
+        "successes": 0
+      },
+      "latencyMs": 11.5338,
+      "ms": 313
+    },
+    {
+      "rep": 16,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401
+        ]
+      },
+      "counted": {
+        "attempts": 5,
+        "successes": 0
+      },
+      "latencyMs": 9.6238,
+      "ms": 296
+    },
+    {
+      "rep": 17,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401
+        ]
+      },
+      "counted": {
+        "attempts": 5,
+        "successes": 0
+      },
+      "latencyMs": 8.671,
+      "ms": 297
+    },
+    {
+      "rep": 18,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401
+        ]
+      },
+      "counted": {
+        "attempts": 5,
+        "successes": 0
+      },
+      "latencyMs": 9.8227,
+      "ms": 304
+    },
+    {
+      "rep": 19,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401
+        ]
+      },
+      "counted": {
+        "attempts": 5,
+        "successes": 0
+      },
+      "latencyMs": 10.2872,
+      "ms": 300
+    },
+    {
+      "rep": 20,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401
+        ]
+      },
+      "counted": {
+        "attempts": 5,
+        "successes": 0
+      },
+      "latencyMs": 7.8968,
+      "ms": 303
+    },
+    {
+      "rep": 21,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401
+        ]
+      },
+      "counted": {
+        "attempts": 5,
+        "successes": 0
+      },
+      "latencyMs": 12.0144,
+      "ms": 304
+    },
+    {
+      "rep": 22,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401
+        ]
+      },
+      "counted": {
+        "attempts": 5,
+        "successes": 0
+      },
+      "latencyMs": 9.0407,
+      "ms": 304
+    },
+    {
+      "rep": 23,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401
+        ]
+      },
+      "counted": {
+        "attempts": 5,
+        "successes": 0
+      },
+      "latencyMs": 8.5771,
+      "ms": 289
+    },
+    {
+      "rep": 24,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401
+        ]
+      },
+      "counted": {
+        "attempts": 5,
+        "successes": 0
+      },
+      "latencyMs": 12.6115,
+      "ms": 300
+    },
+    {
+      "rep": 25,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401
+        ]
+      },
+      "counted": {
+        "attempts": 5,
+        "successes": 0
+      },
+      "latencyMs": 10.8913,
+      "ms": 335
+    },
+    {
+      "rep": 26,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401
+        ]
+      },
+      "counted": {
+        "attempts": 5,
+        "successes": 0
+      },
+      "latencyMs": 11.6711,
+      "ms": 289
+    },
+    {
+      "rep": 27,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401
+        ]
+      },
+      "counted": {
+        "attempts": 5,
+        "successes": 0
+      },
+      "latencyMs": 11.0617,
+      "ms": 309
+    },
+    {
+      "rep": 28,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401
+        ]
+      },
+      "counted": {
+        "attempts": 5,
+        "successes": 0
+      },
+      "latencyMs": 10.1758,
+      "ms": 317
+    },
+    {
+      "rep": 29,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401
+        ]
+      },
+      "counted": {
+        "attempts": 5,
+        "successes": 0
+      },
+      "latencyMs": 12.0144,
+      "ms": 314
+    },
+    {
+      "rep": 30,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401
+        ]
+      },
+      "counted": {
+        "attempts": 5,
+        "successes": 0
+      },
+      "latencyMs": 8.8843,
+      "ms": 301
+    }
+  ]
+}

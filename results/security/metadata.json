@@ -1,0 +1,34 @@
+{
+  "experimentDocVersion": "1.3",
+  "experimentVersion": "v1",
+  "gitCommit": "5dff733ddbe0eac74d53b25fb7541b17f72f3858",
+  "started": "2026-10-12T08:58:13.952Z",
+  "finished": "2026-10-12T09:15:39.766Z",
+  "args": {
+    "configs": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "tests": null,
+    "reps": 30,
+    "raceReps": 100,
+    "out": "results/security",
+    "negativeControl": false,
+    "unsafeDelayMs": 20
+  },
+  "node": "v23.5.0",
+  "mysql": "8.0.42",
+  "os": "win32 10.0.26300",
+  "cpu": "11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz x8",
+  "totalMemoryGB": 16,
+  "appProfile": "test",
+  "uvThreadpoolSize": "16",
+  "rateLimitProfiles": {
+    "default": "relaxed",
+    "T18_T20_T28": "standard (fresh app per repetition)",
+    "T06": "relaxed + OTT_EXPIRES_IN_SECONDS=2"
+  },
+  "note": "Predicted outcomes in this report are hypotheses from EXPERIMENTS.md section 9; only the observed counts are results."
+}

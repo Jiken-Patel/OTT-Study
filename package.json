@@ -8,7 +8,7 @@
     "start": "node src/server.js",
     "sink": "node sink/server.js",
     "db:reset": "node scripts/resetDb.js",
-    "test": "APP_PROFILE=test node --test --test-concurrency=1 test/stage1.test.js test/stage2.test.js test/stage3.test.js test/stage4.test.js test/stage5.test.js test/stats.test.js test/stage7.test.js",
+    "test": "cross-env APP_PROFILE=test node --test --test-concurrency=1 test/stage1.test.js test/stage2.test.js test/stage3.test.js test/stage4.test.js test/stage5.test.js test/stats.test.js test/stage7.test.js",
     "security": "node harness/security/runner.js",
     "bench": "node bench/run.js",
     "analyze": "node bench/analyze.js"
@@ -27,5 +27,8 @@
     "sequelize": {
       "uuid": "^11.1.1"
     }
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
   }
 }

@@ -1,0 +1,3109 @@
+{
+  "test": "T27",
+  "name": "20 parallel OTT issuance requests",
+  "capability": "AC9",
+  "config": "C",
+  "predicted": "INVARIANT_HELD",
+  "reps": [
+    {
+      "rep": 1,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1142
+    },
+    {
+      "rep": 2,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1169
+    },
+    {
+      "rep": 3,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1217
+    },
+    {
+      "rep": 4,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1179
+    },
+    {
+      "rep": 5,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1120
+    },
+    {
+      "rep": 6,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1145
+    },
+    {
+      "rep": 7,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1163
+    },
+    {
+      "rep": 8,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1139
+    },
+    {
+      "rep": 9,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1158
+    },
+    {
+      "rep": 10,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1206
+    },
+    {
+      "rep": 11,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1190
+    },
+    {
+      "rep": 12,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1132
+    },
+    {
+      "rep": 13,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1256
+    },
+    {
+      "rep": 14,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1148
+    },
+    {
+      "rep": 15,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1163
+    },
+    {
+      "rep": 16,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1191
+    },
+    {
+      "rep": 17,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1176
+    },
+    {
+      "rep": 18,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1112
+    },
+    {
+      "rep": 19,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1141
+    },
+    {
+      "rep": 20,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1207
+    },
+    {
+      "rep": 21,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1209
+    },
+    {
+      "rep": 22,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1160
+    },
+    {
+      "rep": 23,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1248
+    },
+    {
+      "rep": 24,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1176
+    },
+    {
+      "rep": 25,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1187
+    },
+    {
+      "rep": 26,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1152
+    },
+    {
+      "rep": 27,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1256
+    },
+    {
+      "rep": 28,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1190
+    },
+    {
+      "rep": 29,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1154
+    },
+    {
+      "rep": 30,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1474
+    },
+    {
+      "rep": 31,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1769
+    },
+    {
+      "rep": 32,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1578
+    },
+    {
+      "rep": 33,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1435
+    },
+    {
+      "rep": 34,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1221
+    },
+    {
+      "rep": 35,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1256
+    },
+    {
+      "rep": 36,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1221
+    },
+    {
+      "rep": 37,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1107
+    },
+    {
+      "rep": 38,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1213
+    },
+    {
+      "rep": 39,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1091
+    },
+    {
+      "rep": 40,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1117
+    },
+    {
+      "rep": 41,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1126
+    },
+    {
+      "rep": 42,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1178
+    },
+    {
+      "rep": 43,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1206
+    },
+    {
+      "rep": 44,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1176
+    },
+    {
+      "rep": 45,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1179
+    },
+    {
+      "rep": 46,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1183
+    },
+    {
+      "rep": 47,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1184
+    },
+    {
+      "rep": 48,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1206
+    },
+    {
+      "rep": 49,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1227
+    },
+    {
+      "rep": 50,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1175
+    },
+    {
+      "rep": 51,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1153
+    },
+    {
+      "rep": 52,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1140
+    },
+    {
+      "rep": 53,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1144
+    },
+    {
+      "rep": 54,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1164
+    },
+    {
+      "rep": 55,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1169
+    },
+    {
+      "rep": 56,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1219
+    },
+    {
+      "rep": 57,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1178
+    },
+    {
+      "rep": 58,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1151
+    },
+    {
+      "rep": 59,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1261
+    },
+    {
+      "rep": 60,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1207
+    },
+    {
+      "rep": 61,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1150
+    },
+    {
+      "rep": 62,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1196
+    },
+    {
+      "rep": 63,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1111
+    },
+    {
+      "rep": 64,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1090
+    },
+    {
+      "rep": 65,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1143
+    },
+    {
+      "rep": 66,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1128
+    },
+    {
+      "rep": 67,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1190
+    },
+    {
+      "rep": 68,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1124
+    },
+    {
+      "rep": 69,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1189
+    },
+    {
+      "rep": 70,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1130
+    },
+    {
+      "rep": 71,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1077
+    },
+    {
+      "rep": 72,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1226
+    },
+    {
+      "rep": 73,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1177
+    },
+    {
+      "rep": 74,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1179
+    },
+    {
+      "rep": 75,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1241
+    },
+    {
+      "rep": 76,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1187
+    },
+    {
+      "rep": 77,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1139
+    },
+    {
+      "rep": 78,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1129
+    },
+    {
+      "rep": 79,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1181
+    },
+    {
+      "rep": 80,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1140
+    },
+    {
+      "rep": 81,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1213
+    },
+    {
+      "rep": 82,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1166
+    },
+    {
+      "rep": 83,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1141
+    },
+    {
+      "rep": 84,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1100
+    },
+    {
+      "rep": 85,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1165
+    },
+    {
+      "rep": 86,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1099
+    },
+    {
+      "rep": 87,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1078
+    },
+    {
+      "rep": 88,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1098
+    },
+    {
+      "rep": 89,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1123
+    },
+    {
+      "rep": 90,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1107
+    },
+    {
+      "rep": 91,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1097
+    },
+    {
+      "rep": 92,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1159
+    },
+    {
+      "rep": 93,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1071
+    },
+    {
+      "rep": 94,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1189
+    },
+    {
+      "rep": 95,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1169
+    },
+    {
+      "rep": 96,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1171
+    },
+    {
+      "rep": 97,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1190
+    },
+    {
+      "rep": 98,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1209
+    },
+    {
+      "rep": 99,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1143
+    },
+    {
+      "rep": 100,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 20,
+        "accepted": 20,
+        "statuses": {
+          "202": 20
+        },
+        "states": {
+          "total": 20,
+          "used": 0,
+          "superseded": 19,
+          "expired": 0,
+          "active": 1,
+          "bothFlags": 0
+        },
+        "delivered": 20,
+        "consumeStatuses": {
+          "200": 1,
+          "403": 19
+        },
+        "dbErrors": 0
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": null,
+      "ms": 1161
+    }
+  ]
+}

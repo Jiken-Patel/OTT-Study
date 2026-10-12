@@ -1,0 +1,399 @@
+{
+  "test": "T02",
+  "name": "Stolen access JWT on the sensitive endpoint, no second factor",
+  "capability": "AC1",
+  "config": "B",
+  "predicted": "SUCCEEDS",
+  "reps": [
+    {
+      "rep": 1,
+      "outcome": "SUCCEEDS",
+      "observed": {
+        "status": 200
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 1
+      },
+      "latencyMs": 242.3154,
+      "ms": 488
+    },
+    {
+      "rep": 2,
+      "outcome": "SUCCEEDS",
+      "observed": {
+        "status": 200
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 1
+      },
+      "latencyMs": 246.414,
+      "ms": 496
+    },
+    {
+      "rep": 3,
+      "outcome": "SUCCEEDS",
+      "observed": {
+        "status": 200
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 1
+      },
+      "latencyMs": 235.1492,
+      "ms": 485
+    },
+    {
+      "rep": 4,
+      "outcome": "SUCCEEDS",
+      "observed": {
+        "status": 200
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 1
+      },
+      "latencyMs": 228.9411,
+      "ms": 469
+    },
+    {
+      "rep": 5,
+      "outcome": "SUCCEEDS",
+      "observed": {
+        "status": 200
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 1
+      },
+      "latencyMs": 234.1099,
+      "ms": 488
+    },
+    {
+      "rep": 6,
+      "outcome": "SUCCEEDS",
+      "observed": {
+        "status": 200
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 1
+      },
+      "latencyMs": 243.4349,
+      "ms": 494
+    },
+    {
+      "rep": 7,
+      "outcome": "SUCCEEDS",
+      "observed": {
+        "status": 200
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 1
+      },
+      "latencyMs": 247.6397,
+      "ms": 498
+    },
+    {
+      "rep": 8,
+      "outcome": "SUCCEEDS",
+      "observed": {
+        "status": 200
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 1
+      },
+      "latencyMs": 244.8576,
+      "ms": 502
+    },
+    {
+      "rep": 9,
+      "outcome": "SUCCEEDS",
+      "observed": {
+        "status": 200
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 1
+      },
+      "latencyMs": 234.6928,
+      "ms": 485
+    },
+    {
+      "rep": 10,
+      "outcome": "SUCCEEDS",
+      "observed": {
+        "status": 200
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 1
+      },
+      "latencyMs": 237.3502,
+      "ms": 494
+    },
+    {
+      "rep": 11,
+      "outcome": "SUCCEEDS",
+      "observed": {
+        "status": 200
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 1
+      },
+      "latencyMs": 241.1809,
+      "ms": 490
+    },
+    {
+      "rep": 12,
+      "outcome": "SUCCEEDS",
+      "observed": {
+        "status": 200
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 1
+      },
+      "latencyMs": 229.8956,
+      "ms": 482
+    },
+    {
+      "rep": 13,
+      "outcome": "SUCCEEDS",
+      "observed": {
+        "status": 200
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 1
+      },
+      "latencyMs": 232.0223,
+      "ms": 485
+    },
+    {
+      "rep": 14,
+      "outcome": "SUCCEEDS",
+      "observed": {
+        "status": 200
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 1
+      },
+      "latencyMs": 230.036,
+      "ms": 484
+    },
+    {
+      "rep": 15,
+      "outcome": "SUCCEEDS",
+      "observed": {
+        "status": 200
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 1
+      },
+      "latencyMs": 245.7113,
+      "ms": 497
+    },
+    {
+      "rep": 16,
+      "outcome": "SUCCEEDS",
+      "observed": {
+        "status": 200
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 1
+      },
+      "latencyMs": 236.9461,
+      "ms": 490
+    },
+    {
+      "rep": 17,
+      "outcome": "SUCCEEDS",
+      "observed": {
+        "status": 200
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 1
+      },
+      "latencyMs": 238.0368,
+      "ms": 486
+    },
+    {
+      "rep": 18,
+      "outcome": "SUCCEEDS",
+      "observed": {
+        "status": 200
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 1
+      },
+      "latencyMs": 240.5592,
+      "ms": 498
+    },
+    {
+      "rep": 19,
+      "outcome": "SUCCEEDS",
+      "observed": {
+        "status": 200
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 1
+      },
+      "latencyMs": 241.5311,
+      "ms": 484
+    },
+    {
+      "rep": 20,
+      "outcome": "SUCCEEDS",
+      "observed": {
+        "status": 200
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 1
+      },
+      "latencyMs": 244.0482,
+      "ms": 499
+    },
+    {
+      "rep": 21,
+      "outcome": "SUCCEEDS",
+      "observed": {
+        "status": 200
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 1
+      },
+      "latencyMs": 240.3761,
+      "ms": 499
+    },
+    {
+      "rep": 22,
+      "outcome": "SUCCEEDS",
+      "observed": {
+        "status": 200
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 1
+      },
+      "latencyMs": 238.2311,
+      "ms": 488
+    },
+    {
+      "rep": 23,
+      "outcome": "SUCCEEDS",
+      "observed": {
+        "status": 200
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 1
+      },
+      "latencyMs": 237.4253,
+      "ms": 491
+    },
+    {
+      "rep": 24,
+      "outcome": "SUCCEEDS",
+      "observed": {
+        "status": 200
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 1
+      },
+      "latencyMs": 245.3601,
+      "ms": 506
+    },
+    {
+      "rep": 25,
+      "outcome": "SUCCEEDS",
+      "observed": {
+        "status": 200
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 1
+      },
+      "latencyMs": 236.3758,
+      "ms": 485
+    },
+    {
+      "rep": 26,
+      "outcome": "SUCCEEDS",
+      "observed": {
+        "status": 200
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 1
+      },
+      "latencyMs": 235.0023,
+      "ms": 526
+    },
+    {
+      "rep": 27,
+      "outcome": "SUCCEEDS",
+      "observed": {
+        "status": 200
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 1
+      },
+      "latencyMs": 239.8584,
+      "ms": 497
+    },
+    {
+      "rep": 28,
+      "outcome": "SUCCEEDS",
+      "observed": {
+        "status": 200
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 1
+      },
+      "latencyMs": 241.2971,
+      "ms": 483
+    },
+    {
+      "rep": 29,
+      "outcome": "SUCCEEDS",
+      "observed": {
+        "status": 200
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 1
+      },
+      "latencyMs": 239.466,
+      "ms": 487
+    },
+    {
+      "rep": 30,
+      "outcome": "SUCCEEDS",
+      "observed": {
+        "status": 200
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 1
+      },
+      "latencyMs": 238.2301,
+      "ms": 491
+    }
+  ]
+}

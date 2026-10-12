@@ -1,0 +1,699 @@
+{
+  "test": "T23",
+  "name": "Claim validation (exp, nbf, iss, aud, type, missing claims)",
+  "capability": "AC4",
+  "config": "C",
+  "predicted": "BLOCKED",
+  "reps": [
+    {
+      "rep": 1,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401
+        ],
+        "accessAsRefreshStatus": 401
+      },
+      "counted": {
+        "attempts": 9,
+        "successes": 0
+      },
+      "latencyMs": 11.6677,
+      "ms": 351
+    },
+    {
+      "rep": 2,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401
+        ],
+        "accessAsRefreshStatus": 401
+      },
+      "counted": {
+        "attempts": 9,
+        "successes": 0
+      },
+      "latencyMs": 8.1455,
+      "ms": 350
+    },
+    {
+      "rep": 3,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401
+        ],
+        "accessAsRefreshStatus": 401
+      },
+      "counted": {
+        "attempts": 9,
+        "successes": 0
+      },
+      "latencyMs": 9.5312,
+      "ms": 336
+    },
+    {
+      "rep": 4,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401
+        ],
+        "accessAsRefreshStatus": 401
+      },
+      "counted": {
+        "attempts": 9,
+        "successes": 0
+      },
+      "latencyMs": 10.6669,
+      "ms": 361
+    },
+    {
+      "rep": 5,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401
+        ],
+        "accessAsRefreshStatus": 401
+      },
+      "counted": {
+        "attempts": 9,
+        "successes": 0
+      },
+      "latencyMs": 7.7858,
+      "ms": 343
+    },
+    {
+      "rep": 6,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401
+        ],
+        "accessAsRefreshStatus": 401
+      },
+      "counted": {
+        "attempts": 9,
+        "successes": 0
+      },
+      "latencyMs": 8.3738,
+      "ms": 340
+    },
+    {
+      "rep": 7,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401
+        ],
+        "accessAsRefreshStatus": 401
+      },
+      "counted": {
+        "attempts": 9,
+        "successes": 0
+      },
+      "latencyMs": 8.5664,
+      "ms": 336
+    },
+    {
+      "rep": 8,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401
+        ],
+        "accessAsRefreshStatus": 401
+      },
+      "counted": {
+        "attempts": 9,
+        "successes": 0
+      },
+      "latencyMs": 11.6387,
+      "ms": 336
+    },
+    {
+      "rep": 9,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401
+        ],
+        "accessAsRefreshStatus": 401
+      },
+      "counted": {
+        "attempts": 9,
+        "successes": 0
+      },
+      "latencyMs": 11.543,
+      "ms": 351
+    },
+    {
+      "rep": 10,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401
+        ],
+        "accessAsRefreshStatus": 401
+      },
+      "counted": {
+        "attempts": 9,
+        "successes": 0
+      },
+      "latencyMs": 8.5201,
+      "ms": 350
+    },
+    {
+      "rep": 11,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401
+        ],
+        "accessAsRefreshStatus": 401
+      },
+      "counted": {
+        "attempts": 9,
+        "successes": 0
+      },
+      "latencyMs": 9.0573,
+      "ms": 339
+    },
+    {
+      "rep": 12,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401
+        ],
+        "accessAsRefreshStatus": 401
+      },
+      "counted": {
+        "attempts": 9,
+        "successes": 0
+      },
+      "latencyMs": 10.4195,
+      "ms": 350
+    },
+    {
+      "rep": 13,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401
+        ],
+        "accessAsRefreshStatus": 401
+      },
+      "counted": {
+        "attempts": 9,
+        "successes": 0
+      },
+      "latencyMs": 9.7296,
+      "ms": 343
+    },
+    {
+      "rep": 14,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401
+        ],
+        "accessAsRefreshStatus": 401
+      },
+      "counted": {
+        "attempts": 9,
+        "successes": 0
+      },
+      "latencyMs": 8.3348,
+      "ms": 350
+    },
+    {
+      "rep": 15,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401
+        ],
+        "accessAsRefreshStatus": 401
+      },
+      "counted": {
+        "attempts": 9,
+        "successes": 0
+      },
+      "latencyMs": 8.4427,
+      "ms": 329
+    },
+    {
+      "rep": 16,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401
+        ],
+        "accessAsRefreshStatus": 401
+      },
+      "counted": {
+        "attempts": 9,
+        "successes": 0
+      },
+      "latencyMs": 9.7771,
+      "ms": 357
+    },
+    {
+      "rep": 17,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401
+        ],
+        "accessAsRefreshStatus": 401
+      },
+      "counted": {
+        "attempts": 9,
+        "successes": 0
+      },
+      "latencyMs": 9.5393,
+      "ms": 363
+    },
+    {
+      "rep": 18,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401
+        ],
+        "accessAsRefreshStatus": 401
+      },
+      "counted": {
+        "attempts": 9,
+        "successes": 0
+      },
+      "latencyMs": 9.9813,
+      "ms": 358
+    },
+    {
+      "rep": 19,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401
+        ],
+        "accessAsRefreshStatus": 401
+      },
+      "counted": {
+        "attempts": 9,
+        "successes": 0
+      },
+      "latencyMs": 8.1803,
+      "ms": 352
+    },
+    {
+      "rep": 20,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401
+        ],
+        "accessAsRefreshStatus": 401
+      },
+      "counted": {
+        "attempts": 9,
+        "successes": 0
+      },
+      "latencyMs": 7.499,
+      "ms": 341
+    },
+    {
+      "rep": 21,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401
+        ],
+        "accessAsRefreshStatus": 401
+      },
+      "counted": {
+        "attempts": 9,
+        "successes": 0
+      },
+      "latencyMs": 7.2038,
+      "ms": 337
+    },
+    {
+      "rep": 22,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401
+        ],
+        "accessAsRefreshStatus": 401
+      },
+      "counted": {
+        "attempts": 9,
+        "successes": 0
+      },
+      "latencyMs": 10.2028,
+      "ms": 370
+    },
+    {
+      "rep": 23,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401
+        ],
+        "accessAsRefreshStatus": 401
+      },
+      "counted": {
+        "attempts": 9,
+        "successes": 0
+      },
+      "latencyMs": 8.2617,
+      "ms": 367
+    },
+    {
+      "rep": 24,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401
+        ],
+        "accessAsRefreshStatus": 401
+      },
+      "counted": {
+        "attempts": 9,
+        "successes": 0
+      },
+      "latencyMs": 11.0914,
+      "ms": 357
+    },
+    {
+      "rep": 25,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401
+        ],
+        "accessAsRefreshStatus": 401
+      },
+      "counted": {
+        "attempts": 9,
+        "successes": 0
+      },
+      "latencyMs": 24.6796,
+      "ms": 415
+    },
+    {
+      "rep": 26,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401
+        ],
+        "accessAsRefreshStatus": 401
+      },
+      "counted": {
+        "attempts": 9,
+        "successes": 0
+      },
+      "latencyMs": 10.9799,
+      "ms": 342
+    },
+    {
+      "rep": 27,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401
+        ],
+        "accessAsRefreshStatus": 401
+      },
+      "counted": {
+        "attempts": 9,
+        "successes": 0
+      },
+      "latencyMs": 11.7829,
+      "ms": 342
+    },
+    {
+      "rep": 28,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401
+        ],
+        "accessAsRefreshStatus": 401
+      },
+      "counted": {
+        "attempts": 9,
+        "successes": 0
+      },
+      "latencyMs": 8.2895,
+      "ms": 337
+    },
+    {
+      "rep": 29,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401
+        ],
+        "accessAsRefreshStatus": 401
+      },
+      "counted": {
+        "attempts": 9,
+        "successes": 0
+      },
+      "latencyMs": 11.9588,
+      "ms": 345
+    },
+    {
+      "rep": 30,
+      "outcome": "BLOCKED",
+      "observed": {
+        "statuses": [
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401,
+          401
+        ],
+        "accessAsRefreshStatus": 401
+      },
+      "counted": {
+        "attempts": 9,
+        "successes": 0
+      },
+      "latencyMs": 9.6616,
+      "ms": 331
+    }
+  ]
+}

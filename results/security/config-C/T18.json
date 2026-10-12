@@ -1,0 +1,1209 @@
+{
+  "test": "T18",
+  "name": "Invalid-OTT flooding (per-user, per-IP, per-user across IPs)",
+  "capability": "AC10",
+  "config": "C",
+  "predicted": "RATE_LIMITED",
+  "reps": [
+    {
+      "rep": 1,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "user": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 90
+          },
+          "successes": 0,
+          "ms": 19.7425
+        },
+        "ip": {
+          "ok": true,
+          "firstBlocked": 31,
+          "statuses": {
+            "403": 30,
+            "429": 1
+          },
+          "successes": 0
+        },
+        "userAcrossIps": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 2
+          },
+          "successes": 0
+        }
+      },
+      "counted": {
+        "attempts": 143,
+        "successes": 0
+      },
+      "latencyMs": 19.7425,
+      "ms": 2251
+    },
+    {
+      "rep": 2,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "user": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 90
+          },
+          "successes": 0,
+          "ms": 18.7305
+        },
+        "ip": {
+          "ok": true,
+          "firstBlocked": 31,
+          "statuses": {
+            "403": 30,
+            "429": 1
+          },
+          "successes": 0
+        },
+        "userAcrossIps": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 2
+          },
+          "successes": 0
+        }
+      },
+      "counted": {
+        "attempts": 143,
+        "successes": 0
+      },
+      "latencyMs": 18.7305,
+      "ms": 3376
+    },
+    {
+      "rep": 3,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "user": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 90
+          },
+          "successes": 0,
+          "ms": 14.4916
+        },
+        "ip": {
+          "ok": true,
+          "firstBlocked": 31,
+          "statuses": {
+            "403": 30,
+            "429": 1
+          },
+          "successes": 0
+        },
+        "userAcrossIps": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 2
+          },
+          "successes": 0
+        }
+      },
+      "counted": {
+        "attempts": 143,
+        "successes": 0
+      },
+      "latencyMs": 14.4916,
+      "ms": 2082
+    },
+    {
+      "rep": 4,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "user": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 90
+          },
+          "successes": 0,
+          "ms": 12.0109
+        },
+        "ip": {
+          "ok": true,
+          "firstBlocked": 31,
+          "statuses": {
+            "403": 30,
+            "429": 1
+          },
+          "successes": 0
+        },
+        "userAcrossIps": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 2
+          },
+          "successes": 0
+        }
+      },
+      "counted": {
+        "attempts": 143,
+        "successes": 0
+      },
+      "latencyMs": 12.0109,
+      "ms": 1986
+    },
+    {
+      "rep": 5,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "user": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 90
+          },
+          "successes": 0,
+          "ms": 11.2617
+        },
+        "ip": {
+          "ok": true,
+          "firstBlocked": 31,
+          "statuses": {
+            "403": 30,
+            "429": 1
+          },
+          "successes": 0
+        },
+        "userAcrossIps": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 2
+          },
+          "successes": 0
+        }
+      },
+      "counted": {
+        "attempts": 143,
+        "successes": 0
+      },
+      "latencyMs": 11.2617,
+      "ms": 2375
+    },
+    {
+      "rep": 6,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "user": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 90
+          },
+          "successes": 0,
+          "ms": 12.2332
+        },
+        "ip": {
+          "ok": true,
+          "firstBlocked": 31,
+          "statuses": {
+            "403": 30,
+            "429": 1
+          },
+          "successes": 0
+        },
+        "userAcrossIps": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 2
+          },
+          "successes": 0
+        }
+      },
+      "counted": {
+        "attempts": 143,
+        "successes": 0
+      },
+      "latencyMs": 12.2332,
+      "ms": 2223
+    },
+    {
+      "rep": 7,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "user": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 90
+          },
+          "successes": 0,
+          "ms": 12.2075
+        },
+        "ip": {
+          "ok": true,
+          "firstBlocked": 31,
+          "statuses": {
+            "403": 30,
+            "429": 1
+          },
+          "successes": 0
+        },
+        "userAcrossIps": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 2
+          },
+          "successes": 0
+        }
+      },
+      "counted": {
+        "attempts": 143,
+        "successes": 0
+      },
+      "latencyMs": 12.2075,
+      "ms": 2067
+    },
+    {
+      "rep": 8,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "user": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 90
+          },
+          "successes": 0,
+          "ms": 18.0956
+        },
+        "ip": {
+          "ok": true,
+          "firstBlocked": 31,
+          "statuses": {
+            "403": 30,
+            "429": 1
+          },
+          "successes": 0
+        },
+        "userAcrossIps": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 2
+          },
+          "successes": 0
+        }
+      },
+      "counted": {
+        "attempts": 143,
+        "successes": 0
+      },
+      "latencyMs": 18.0956,
+      "ms": 2222
+    },
+    {
+      "rep": 9,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "user": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 90
+          },
+          "successes": 0,
+          "ms": 10.5387
+        },
+        "ip": {
+          "ok": true,
+          "firstBlocked": 31,
+          "statuses": {
+            "403": 30,
+            "429": 1
+          },
+          "successes": 0
+        },
+        "userAcrossIps": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 2
+          },
+          "successes": 0
+        }
+      },
+      "counted": {
+        "attempts": 143,
+        "successes": 0
+      },
+      "latencyMs": 10.5387,
+      "ms": 2461
+    },
+    {
+      "rep": 10,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "user": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 90
+          },
+          "successes": 0,
+          "ms": 14.6909
+        },
+        "ip": {
+          "ok": true,
+          "firstBlocked": 31,
+          "statuses": {
+            "403": 30,
+            "429": 1
+          },
+          "successes": 0
+        },
+        "userAcrossIps": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 2
+          },
+          "successes": 0
+        }
+      },
+      "counted": {
+        "attempts": 143,
+        "successes": 0
+      },
+      "latencyMs": 14.6909,
+      "ms": 2165
+    },
+    {
+      "rep": 11,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "user": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 90
+          },
+          "successes": 0,
+          "ms": 11.8219
+        },
+        "ip": {
+          "ok": true,
+          "firstBlocked": 31,
+          "statuses": {
+            "403": 30,
+            "429": 1
+          },
+          "successes": 0
+        },
+        "userAcrossIps": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 2
+          },
+          "successes": 0
+        }
+      },
+      "counted": {
+        "attempts": 143,
+        "successes": 0
+      },
+      "latencyMs": 11.8219,
+      "ms": 2738
+    },
+    {
+      "rep": 12,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "user": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 90
+          },
+          "successes": 0,
+          "ms": 12.5337
+        },
+        "ip": {
+          "ok": true,
+          "firstBlocked": 31,
+          "statuses": {
+            "403": 30,
+            "429": 1
+          },
+          "successes": 0
+        },
+        "userAcrossIps": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 2
+          },
+          "successes": 0
+        }
+      },
+      "counted": {
+        "attempts": 143,
+        "successes": 0
+      },
+      "latencyMs": 12.5337,
+      "ms": 1880
+    },
+    {
+      "rep": 13,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "user": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 90
+          },
+          "successes": 0,
+          "ms": 12.0743
+        },
+        "ip": {
+          "ok": true,
+          "firstBlocked": 31,
+          "statuses": {
+            "403": 30,
+            "429": 1
+          },
+          "successes": 0
+        },
+        "userAcrossIps": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 2
+          },
+          "successes": 0
+        }
+      },
+      "counted": {
+        "attempts": 143,
+        "successes": 0
+      },
+      "latencyMs": 12.0743,
+      "ms": 1915
+    },
+    {
+      "rep": 14,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "user": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 90
+          },
+          "successes": 0,
+          "ms": 15.3309
+        },
+        "ip": {
+          "ok": true,
+          "firstBlocked": 31,
+          "statuses": {
+            "403": 30,
+            "429": 1
+          },
+          "successes": 0
+        },
+        "userAcrossIps": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 2
+          },
+          "successes": 0
+        }
+      },
+      "counted": {
+        "attempts": 143,
+        "successes": 0
+      },
+      "latencyMs": 15.3309,
+      "ms": 1911
+    },
+    {
+      "rep": 15,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "user": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 90
+          },
+          "successes": 0,
+          "ms": 13.5659
+        },
+        "ip": {
+          "ok": true,
+          "firstBlocked": 31,
+          "statuses": {
+            "403": 30,
+            "429": 1
+          },
+          "successes": 0
+        },
+        "userAcrossIps": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 2
+          },
+          "successes": 0
+        }
+      },
+      "counted": {
+        "attempts": 143,
+        "successes": 0
+      },
+      "latencyMs": 13.5659,
+      "ms": 1807
+    },
+    {
+      "rep": 16,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "user": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 90
+          },
+          "successes": 0,
+          "ms": 10.0912
+        },
+        "ip": {
+          "ok": true,
+          "firstBlocked": 31,
+          "statuses": {
+            "403": 30,
+            "429": 1
+          },
+          "successes": 0
+        },
+        "userAcrossIps": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 2
+          },
+          "successes": 0
+        }
+      },
+      "counted": {
+        "attempts": 143,
+        "successes": 0
+      },
+      "latencyMs": 10.0912,
+      "ms": 1600
+    },
+    {
+      "rep": 17,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "user": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 90
+          },
+          "successes": 0,
+          "ms": 11.0549
+        },
+        "ip": {
+          "ok": true,
+          "firstBlocked": 31,
+          "statuses": {
+            "403": 30,
+            "429": 1
+          },
+          "successes": 0
+        },
+        "userAcrossIps": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 2
+          },
+          "successes": 0
+        }
+      },
+      "counted": {
+        "attempts": 143,
+        "successes": 0
+      },
+      "latencyMs": 11.0549,
+      "ms": 2396
+    },
+    {
+      "rep": 18,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "user": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 90
+          },
+          "successes": 0,
+          "ms": 9.5058
+        },
+        "ip": {
+          "ok": true,
+          "firstBlocked": 31,
+          "statuses": {
+            "403": 30,
+            "429": 1
+          },
+          "successes": 0
+        },
+        "userAcrossIps": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 2
+          },
+          "successes": 0
+        }
+      },
+      "counted": {
+        "attempts": 143,
+        "successes": 0
+      },
+      "latencyMs": 9.5058,
+      "ms": 1717
+    },
+    {
+      "rep": 19,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "user": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 90
+          },
+          "successes": 0,
+          "ms": 11.2417
+        },
+        "ip": {
+          "ok": true,
+          "firstBlocked": 31,
+          "statuses": {
+            "403": 30,
+            "429": 1
+          },
+          "successes": 0
+        },
+        "userAcrossIps": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 2
+          },
+          "successes": 0
+        }
+      },
+      "counted": {
+        "attempts": 143,
+        "successes": 0
+      },
+      "latencyMs": 11.2417,
+      "ms": 1524
+    },
+    {
+      "rep": 20,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "user": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 90
+          },
+          "successes": 0,
+          "ms": 8.4091
+        },
+        "ip": {
+          "ok": true,
+          "firstBlocked": 31,
+          "statuses": {
+            "403": 30,
+            "429": 1
+          },
+          "successes": 0
+        },
+        "userAcrossIps": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 2
+          },
+          "successes": 0
+        }
+      },
+      "counted": {
+        "attempts": 143,
+        "successes": 0
+      },
+      "latencyMs": 8.4091,
+      "ms": 1835
+    },
+    {
+      "rep": 21,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "user": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 90
+          },
+          "successes": 0,
+          "ms": 8.2501
+        },
+        "ip": {
+          "ok": true,
+          "firstBlocked": 31,
+          "statuses": {
+            "403": 30,
+            "429": 1
+          },
+          "successes": 0
+        },
+        "userAcrossIps": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 2
+          },
+          "successes": 0
+        }
+      },
+      "counted": {
+        "attempts": 143,
+        "successes": 0
+      },
+      "latencyMs": 8.2501,
+      "ms": 1473
+    },
+    {
+      "rep": 22,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "user": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 90
+          },
+          "successes": 0,
+          "ms": 10.9215
+        },
+        "ip": {
+          "ok": true,
+          "firstBlocked": 31,
+          "statuses": {
+            "403": 30,
+            "429": 1
+          },
+          "successes": 0
+        },
+        "userAcrossIps": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 2
+          },
+          "successes": 0
+        }
+      },
+      "counted": {
+        "attempts": 143,
+        "successes": 0
+      },
+      "latencyMs": 10.9215,
+      "ms": 1442
+    },
+    {
+      "rep": 23,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "user": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 90
+          },
+          "successes": 0,
+          "ms": 11.2476
+        },
+        "ip": {
+          "ok": true,
+          "firstBlocked": 31,
+          "statuses": {
+            "403": 30,
+            "429": 1
+          },
+          "successes": 0
+        },
+        "userAcrossIps": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 2
+          },
+          "successes": 0
+        }
+      },
+      "counted": {
+        "attempts": 143,
+        "successes": 0
+      },
+      "latencyMs": 11.2476,
+      "ms": 1925
+    },
+    {
+      "rep": 24,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "user": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 90
+          },
+          "successes": 0,
+          "ms": 9.6659
+        },
+        "ip": {
+          "ok": true,
+          "firstBlocked": 31,
+          "statuses": {
+            "403": 30,
+            "429": 1
+          },
+          "successes": 0
+        },
+        "userAcrossIps": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 2
+          },
+          "successes": 0
+        }
+      },
+      "counted": {
+        "attempts": 143,
+        "successes": 0
+      },
+      "latencyMs": 9.6659,
+      "ms": 1479
+    },
+    {
+      "rep": 25,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "user": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 90
+          },
+          "successes": 0,
+          "ms": 10.1214
+        },
+        "ip": {
+          "ok": true,
+          "firstBlocked": 31,
+          "statuses": {
+            "403": 30,
+            "429": 1
+          },
+          "successes": 0
+        },
+        "userAcrossIps": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 2
+          },
+          "successes": 0
+        }
+      },
+      "counted": {
+        "attempts": 143,
+        "successes": 0
+      },
+      "latencyMs": 10.1214,
+      "ms": 1542
+    },
+    {
+      "rep": 26,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "user": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 90
+          },
+          "successes": 0,
+          "ms": 10.3098
+        },
+        "ip": {
+          "ok": true,
+          "firstBlocked": 31,
+          "statuses": {
+            "403": 30,
+            "429": 1
+          },
+          "successes": 0
+        },
+        "userAcrossIps": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 2
+          },
+          "successes": 0
+        }
+      },
+      "counted": {
+        "attempts": 143,
+        "successes": 0
+      },
+      "latencyMs": 10.3098,
+      "ms": 1451
+    },
+    {
+      "rep": 27,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "user": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 90
+          },
+          "successes": 0,
+          "ms": 9.8861
+        },
+        "ip": {
+          "ok": true,
+          "firstBlocked": 31,
+          "statuses": {
+            "403": 30,
+            "429": 1
+          },
+          "successes": 0
+        },
+        "userAcrossIps": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 2
+          },
+          "successes": 0
+        }
+      },
+      "counted": {
+        "attempts": 143,
+        "successes": 0
+      },
+      "latencyMs": 9.8861,
+      "ms": 1536
+    },
+    {
+      "rep": 28,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "user": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 90
+          },
+          "successes": 0,
+          "ms": 10.4789
+        },
+        "ip": {
+          "ok": true,
+          "firstBlocked": 31,
+          "statuses": {
+            "403": 30,
+            "429": 1
+          },
+          "successes": 0
+        },
+        "userAcrossIps": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 2
+          },
+          "successes": 0
+        }
+      },
+      "counted": {
+        "attempts": 143,
+        "successes": 0
+      },
+      "latencyMs": 10.4789,
+      "ms": 1437
+    },
+    {
+      "rep": 29,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "user": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 90
+          },
+          "successes": 0,
+          "ms": 10.7977
+        },
+        "ip": {
+          "ok": true,
+          "firstBlocked": 31,
+          "statuses": {
+            "403": 30,
+            "429": 1
+          },
+          "successes": 0
+        },
+        "userAcrossIps": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 2
+          },
+          "successes": 0
+        }
+      },
+      "counted": {
+        "attempts": 143,
+        "successes": 0
+      },
+      "latencyMs": 10.7977,
+      "ms": 1590
+    },
+    {
+      "rep": 30,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "user": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 90
+          },
+          "successes": 0,
+          "ms": 8.297
+        },
+        "ip": {
+          "ok": true,
+          "firstBlocked": 31,
+          "statuses": {
+            "403": 30,
+            "429": 1
+          },
+          "successes": 0
+        },
+        "userAcrossIps": {
+          "ok": true,
+          "firstBlocked": 11,
+          "statuses": {
+            "403": 10,
+            "429": 2
+          },
+          "successes": 0
+        }
+      },
+      "counted": {
+        "attempts": 143,
+        "successes": 0
+      },
+      "latencyMs": 8.297,
+      "ms": 1823
+    }
+  ]
+}

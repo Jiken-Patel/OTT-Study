@@ -1,0 +1,459 @@
+{
+  "test": "T24",
+  "name": "Reuse of access and refresh JWTs after logout",
+  "capability": "AC1 after logout",
+  "config": "C",
+  "predicted": "BLOCKED",
+  "reps": [
+    {
+      "rep": 1,
+      "outcome": "BLOCKED",
+      "observed": {
+        "logoutStatus": 204,
+        "accessStatus": 401,
+        "refreshStatus": 401
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 9.4314,
+      "ms": 290
+    },
+    {
+      "rep": 2,
+      "outcome": "BLOCKED",
+      "observed": {
+        "logoutStatus": 204,
+        "accessStatus": 401,
+        "refreshStatus": 401
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 8.955,
+      "ms": 289
+    },
+    {
+      "rep": 3,
+      "outcome": "BLOCKED",
+      "observed": {
+        "logoutStatus": 204,
+        "accessStatus": 401,
+        "refreshStatus": 401
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 9.1755,
+      "ms": 290
+    },
+    {
+      "rep": 4,
+      "outcome": "BLOCKED",
+      "observed": {
+        "logoutStatus": 204,
+        "accessStatus": 401,
+        "refreshStatus": 401
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 9.9227,
+      "ms": 302
+    },
+    {
+      "rep": 5,
+      "outcome": "BLOCKED",
+      "observed": {
+        "logoutStatus": 204,
+        "accessStatus": 401,
+        "refreshStatus": 401
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 9.5134,
+      "ms": 286
+    },
+    {
+      "rep": 6,
+      "outcome": "BLOCKED",
+      "observed": {
+        "logoutStatus": 204,
+        "accessStatus": 401,
+        "refreshStatus": 401
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 11.8945,
+      "ms": 292
+    },
+    {
+      "rep": 7,
+      "outcome": "BLOCKED",
+      "observed": {
+        "logoutStatus": 204,
+        "accessStatus": 401,
+        "refreshStatus": 401
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 11.636,
+      "ms": 307
+    },
+    {
+      "rep": 8,
+      "outcome": "BLOCKED",
+      "observed": {
+        "logoutStatus": 204,
+        "accessStatus": 401,
+        "refreshStatus": 401
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 16.7346,
+      "ms": 307
+    },
+    {
+      "rep": 9,
+      "outcome": "BLOCKED",
+      "observed": {
+        "logoutStatus": 204,
+        "accessStatus": 401,
+        "refreshStatus": 401
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 9.1656,
+      "ms": 303
+    },
+    {
+      "rep": 10,
+      "outcome": "BLOCKED",
+      "observed": {
+        "logoutStatus": 204,
+        "accessStatus": 401,
+        "refreshStatus": 401
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 10.5979,
+      "ms": 295
+    },
+    {
+      "rep": 11,
+      "outcome": "BLOCKED",
+      "observed": {
+        "logoutStatus": 204,
+        "accessStatus": 401,
+        "refreshStatus": 401
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 8.9822,
+      "ms": 293
+    },
+    {
+      "rep": 12,
+      "outcome": "BLOCKED",
+      "observed": {
+        "logoutStatus": 204,
+        "accessStatus": 401,
+        "refreshStatus": 401
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 9.3099,
+      "ms": 297
+    },
+    {
+      "rep": 13,
+      "outcome": "BLOCKED",
+      "observed": {
+        "logoutStatus": 204,
+        "accessStatus": 401,
+        "refreshStatus": 401
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 10.6066,
+      "ms": 296
+    },
+    {
+      "rep": 14,
+      "outcome": "BLOCKED",
+      "observed": {
+        "logoutStatus": 204,
+        "accessStatus": 401,
+        "refreshStatus": 401
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 11.1155,
+      "ms": 292
+    },
+    {
+      "rep": 15,
+      "outcome": "BLOCKED",
+      "observed": {
+        "logoutStatus": 204,
+        "accessStatus": 401,
+        "refreshStatus": 401
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 13.9266,
+      "ms": 301
+    },
+    {
+      "rep": 16,
+      "outcome": "BLOCKED",
+      "observed": {
+        "logoutStatus": 204,
+        "accessStatus": 401,
+        "refreshStatus": 401
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 11.2365,
+      "ms": 292
+    },
+    {
+      "rep": 17,
+      "outcome": "BLOCKED",
+      "observed": {
+        "logoutStatus": 204,
+        "accessStatus": 401,
+        "refreshStatus": 401
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 8.717,
+      "ms": 280
+    },
+    {
+      "rep": 18,
+      "outcome": "BLOCKED",
+      "observed": {
+        "logoutStatus": 204,
+        "accessStatus": 401,
+        "refreshStatus": 401
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 8.4787,
+      "ms": 289
+    },
+    {
+      "rep": 19,
+      "outcome": "BLOCKED",
+      "observed": {
+        "logoutStatus": 204,
+        "accessStatus": 401,
+        "refreshStatus": 401
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 9.0246,
+      "ms": 329
+    },
+    {
+      "rep": 20,
+      "outcome": "BLOCKED",
+      "observed": {
+        "logoutStatus": 204,
+        "accessStatus": 401,
+        "refreshStatus": 401
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 9.8157,
+      "ms": 296
+    },
+    {
+      "rep": 21,
+      "outcome": "BLOCKED",
+      "observed": {
+        "logoutStatus": 204,
+        "accessStatus": 401,
+        "refreshStatus": 401
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 8.1507,
+      "ms": 290
+    },
+    {
+      "rep": 22,
+      "outcome": "BLOCKED",
+      "observed": {
+        "logoutStatus": 204,
+        "accessStatus": 401,
+        "refreshStatus": 401
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 8.6074,
+      "ms": 279
+    },
+    {
+      "rep": 23,
+      "outcome": "BLOCKED",
+      "observed": {
+        "logoutStatus": 204,
+        "accessStatus": 401,
+        "refreshStatus": 401
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 7.4328,
+      "ms": 279
+    },
+    {
+      "rep": 24,
+      "outcome": "BLOCKED",
+      "observed": {
+        "logoutStatus": 204,
+        "accessStatus": 401,
+        "refreshStatus": 401
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 11.9905,
+      "ms": 302
+    },
+    {
+      "rep": 25,
+      "outcome": "BLOCKED",
+      "observed": {
+        "logoutStatus": 204,
+        "accessStatus": 401,
+        "refreshStatus": 401
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 13.4764,
+      "ms": 312
+    },
+    {
+      "rep": 26,
+      "outcome": "BLOCKED",
+      "observed": {
+        "logoutStatus": 204,
+        "accessStatus": 401,
+        "refreshStatus": 401
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 9.3873,
+      "ms": 308
+    },
+    {
+      "rep": 27,
+      "outcome": "BLOCKED",
+      "observed": {
+        "logoutStatus": 204,
+        "accessStatus": 401,
+        "refreshStatus": 401
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 11.6483,
+      "ms": 306
+    },
+    {
+      "rep": 28,
+      "outcome": "BLOCKED",
+      "observed": {
+        "logoutStatus": 204,
+        "accessStatus": 401,
+        "refreshStatus": 401
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 10.855,
+      "ms": 282
+    },
+    {
+      "rep": 29,
+      "outcome": "BLOCKED",
+      "observed": {
+        "logoutStatus": 204,
+        "accessStatus": 401,
+        "refreshStatus": 401
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 9.001,
+      "ms": 291
+    },
+    {
+      "rep": 30,
+      "outcome": "BLOCKED",
+      "observed": {
+        "logoutStatus": 204,
+        "accessStatus": 401,
+        "refreshStatus": 401
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 8.8813,
+      "ms": 302
+    }
+  ]
+}

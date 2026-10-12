@@ -1,0 +1,309 @@
+{
+  "test": "T26",
+  "name": "Access JWT + captured unused OTT",
+  "capability": "AC3",
+  "config": "C",
+  "predicted": "BOUNDARY",
+  "reps": [
+    {
+      "rep": 1,
+      "outcome": "BOUNDARY",
+      "observed": {
+        "status": 200
+      },
+      "counted": null,
+      "latencyMs": 243.8129,
+      "ms": 520
+    },
+    {
+      "rep": 2,
+      "outcome": "BOUNDARY",
+      "observed": {
+        "status": 200
+      },
+      "counted": null,
+      "latencyMs": 246.9281,
+      "ms": 509
+    },
+    {
+      "rep": 3,
+      "outcome": "BOUNDARY",
+      "observed": {
+        "status": 200
+      },
+      "counted": null,
+      "latencyMs": 244.6059,
+      "ms": 526
+    },
+    {
+      "rep": 4,
+      "outcome": "BOUNDARY",
+      "observed": {
+        "status": 200
+      },
+      "counted": null,
+      "latencyMs": 249.3026,
+      "ms": 529
+    },
+    {
+      "rep": 5,
+      "outcome": "BOUNDARY",
+      "observed": {
+        "status": 200
+      },
+      "counted": null,
+      "latencyMs": 270.9345,
+      "ms": 546
+    },
+    {
+      "rep": 6,
+      "outcome": "BOUNDARY",
+      "observed": {
+        "status": 200
+      },
+      "counted": null,
+      "latencyMs": 248.351,
+      "ms": 534
+    },
+    {
+      "rep": 7,
+      "outcome": "BOUNDARY",
+      "observed": {
+        "status": 200
+      },
+      "counted": null,
+      "latencyMs": 245.2445,
+      "ms": 520
+    },
+    {
+      "rep": 8,
+      "outcome": "BOUNDARY",
+      "observed": {
+        "status": 200
+      },
+      "counted": null,
+      "latencyMs": 246.4912,
+      "ms": 518
+    },
+    {
+      "rep": 9,
+      "outcome": "BOUNDARY",
+      "observed": {
+        "status": 200
+      },
+      "counted": null,
+      "latencyMs": 242.2732,
+      "ms": 507
+    },
+    {
+      "rep": 10,
+      "outcome": "BOUNDARY",
+      "observed": {
+        "status": 200
+      },
+      "counted": null,
+      "latencyMs": 248.564,
+      "ms": 523
+    },
+    {
+      "rep": 11,
+      "outcome": "BOUNDARY",
+      "observed": {
+        "status": 200
+      },
+      "counted": null,
+      "latencyMs": 239.4377,
+      "ms": 526
+    },
+    {
+      "rep": 12,
+      "outcome": "BOUNDARY",
+      "observed": {
+        "status": 200
+      },
+      "counted": null,
+      "latencyMs": 241.7562,
+      "ms": 504
+    },
+    {
+      "rep": 13,
+      "outcome": "BOUNDARY",
+      "observed": {
+        "status": 200
+      },
+      "counted": null,
+      "latencyMs": 246.4092,
+      "ms": 510
+    },
+    {
+      "rep": 14,
+      "outcome": "BOUNDARY",
+      "observed": {
+        "status": 200
+      },
+      "counted": null,
+      "latencyMs": 242.2109,
+      "ms": 503
+    },
+    {
+      "rep": 15,
+      "outcome": "BOUNDARY",
+      "observed": {
+        "status": 200
+      },
+      "counted": null,
+      "latencyMs": 245.5812,
+      "ms": 511
+    },
+    {
+      "rep": 16,
+      "outcome": "BOUNDARY",
+      "observed": {
+        "status": 200
+      },
+      "counted": null,
+      "latencyMs": 243.0544,
+      "ms": 511
+    },
+    {
+      "rep": 17,
+      "outcome": "BOUNDARY",
+      "observed": {
+        "status": 200
+      },
+      "counted": null,
+      "latencyMs": 234.6422,
+      "ms": 503
+    },
+    {
+      "rep": 18,
+      "outcome": "BOUNDARY",
+      "observed": {
+        "status": 200
+      },
+      "counted": null,
+      "latencyMs": 241.7825,
+      "ms": 505
+    },
+    {
+      "rep": 19,
+      "outcome": "BOUNDARY",
+      "observed": {
+        "status": 200
+      },
+      "counted": null,
+      "latencyMs": 240.2082,
+      "ms": 511
+    },
+    {
+      "rep": 20,
+      "outcome": "BOUNDARY",
+      "observed": {
+        "status": 200
+      },
+      "counted": null,
+      "latencyMs": 233.6688,
+      "ms": 505
+    },
+    {
+      "rep": 21,
+      "outcome": "BOUNDARY",
+      "observed": {
+        "status": 200
+      },
+      "counted": null,
+      "latencyMs": 243.6285,
+      "ms": 510
+    },
+    {
+      "rep": 22,
+      "outcome": "BOUNDARY",
+      "observed": {
+        "status": 200
+      },
+      "counted": null,
+      "latencyMs": 245.08,
+      "ms": 515
+    },
+    {
+      "rep": 23,
+      "outcome": "BOUNDARY",
+      "observed": {
+        "status": 200
+      },
+      "counted": null,
+      "latencyMs": 246.3651,
+      "ms": 533
+    },
+    {
+      "rep": 24,
+      "outcome": "BOUNDARY",
+      "observed": {
+        "status": 200
+      },
+      "counted": null,
+      "latencyMs": 244.6751,
+      "ms": 502
+    },
+    {
+      "rep": 25,
+      "outcome": "BOUNDARY",
+      "observed": {
+        "status": 200
+      },
+      "counted": null,
+      "latencyMs": 235.3432,
+      "ms": 510
+    },
+    {
+      "rep": 26,
+      "outcome": "BOUNDARY",
+      "observed": {
+        "status": 200
+      },
+      "counted": null,
+      "latencyMs": 233.2944,
+      "ms": 496
+    },
+    {
+      "rep": 27,
+      "outcome": "BOUNDARY",
+      "observed": {
+        "status": 200
+      },
+      "counted": null,
+      "latencyMs": 242.3828,
+      "ms": 507
+    },
+    {
+      "rep": 28,
+      "outcome": "BOUNDARY",
+      "observed": {
+        "status": 200
+      },
+      "counted": null,
+      "latencyMs": 234.3055,
+      "ms": 513
+    },
+    {
+      "rep": 29,
+      "outcome": "BOUNDARY",
+      "observed": {
+        "status": 200
+      },
+      "counted": null,
+      "latencyMs": 251.6867,
+      "ms": 521
+    },
+    {
+      "rep": 30,
+      "outcome": "BOUNDARY",
+      "observed": {
+        "status": 200
+      },
+      "counted": null,
+      "latencyMs": 248.062,
+      "ms": 508
+    }
+  ]
+}

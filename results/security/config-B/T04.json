@@ -1,0 +1,459 @@
+{
+  "test": "T04",
+  "name": "Replay of a rotated refresh JWT",
+  "capability": "AC8",
+  "config": "B",
+  "predicted": "BLOCKED",
+  "reps": [
+    {
+      "rep": 1,
+      "outcome": "BLOCKED",
+      "observed": {
+        "replayStatus": 401,
+        "familyDead": true,
+        "replayEvents": 2
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 20.0865,
+      "ms": 302
+    },
+    {
+      "rep": 2,
+      "outcome": "BLOCKED",
+      "observed": {
+        "replayStatus": 401,
+        "familyDead": true,
+        "replayEvents": 2
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 21.2483,
+      "ms": 304
+    },
+    {
+      "rep": 3,
+      "outcome": "BLOCKED",
+      "observed": {
+        "replayStatus": 401,
+        "familyDead": true,
+        "replayEvents": 2
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 17.6942,
+      "ms": 310
+    },
+    {
+      "rep": 4,
+      "outcome": "BLOCKED",
+      "observed": {
+        "replayStatus": 401,
+        "familyDead": true,
+        "replayEvents": 2
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 19.5533,
+      "ms": 311
+    },
+    {
+      "rep": 5,
+      "outcome": "BLOCKED",
+      "observed": {
+        "replayStatus": 401,
+        "familyDead": true,
+        "replayEvents": 2
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 20.1581,
+      "ms": 316
+    },
+    {
+      "rep": 6,
+      "outcome": "BLOCKED",
+      "observed": {
+        "replayStatus": 401,
+        "familyDead": true,
+        "replayEvents": 2
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 21.143,
+      "ms": 314
+    },
+    {
+      "rep": 7,
+      "outcome": "BLOCKED",
+      "observed": {
+        "replayStatus": 401,
+        "familyDead": true,
+        "replayEvents": 2
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 24.2959,
+      "ms": 323
+    },
+    {
+      "rep": 8,
+      "outcome": "BLOCKED",
+      "observed": {
+        "replayStatus": 401,
+        "familyDead": true,
+        "replayEvents": 2
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 22.6661,
+      "ms": 311
+    },
+    {
+      "rep": 9,
+      "outcome": "BLOCKED",
+      "observed": {
+        "replayStatus": 401,
+        "familyDead": true,
+        "replayEvents": 2
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 17.9247,
+      "ms": 308
+    },
+    {
+      "rep": 10,
+      "outcome": "BLOCKED",
+      "observed": {
+        "replayStatus": 401,
+        "familyDead": true,
+        "replayEvents": 2
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 22.693,
+      "ms": 324
+    },
+    {
+      "rep": 11,
+      "outcome": "BLOCKED",
+      "observed": {
+        "replayStatus": 401,
+        "familyDead": true,
+        "replayEvents": 2
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 18.7863,
+      "ms": 323
+    },
+    {
+      "rep": 12,
+      "outcome": "BLOCKED",
+      "observed": {
+        "replayStatus": 401,
+        "familyDead": true,
+        "replayEvents": 2
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 23.1699,
+      "ms": 318
+    },
+    {
+      "rep": 13,
+      "outcome": "BLOCKED",
+      "observed": {
+        "replayStatus": 401,
+        "familyDead": true,
+        "replayEvents": 2
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 22.6152,
+      "ms": 342
+    },
+    {
+      "rep": 14,
+      "outcome": "BLOCKED",
+      "observed": {
+        "replayStatus": 401,
+        "familyDead": true,
+        "replayEvents": 2
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 21.9288,
+      "ms": 316
+    },
+    {
+      "rep": 15,
+      "outcome": "BLOCKED",
+      "observed": {
+        "replayStatus": 401,
+        "familyDead": true,
+        "replayEvents": 2
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 21.1829,
+      "ms": 316
+    },
+    {
+      "rep": 16,
+      "outcome": "BLOCKED",
+      "observed": {
+        "replayStatus": 401,
+        "familyDead": true,
+        "replayEvents": 2
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 18.8309,
+      "ms": 302
+    },
+    {
+      "rep": 17,
+      "outcome": "BLOCKED",
+      "observed": {
+        "replayStatus": 401,
+        "familyDead": true,
+        "replayEvents": 2
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 21.6702,
+      "ms": 313
+    },
+    {
+      "rep": 18,
+      "outcome": "BLOCKED",
+      "observed": {
+        "replayStatus": 401,
+        "familyDead": true,
+        "replayEvents": 2
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 22.7337,
+      "ms": 314
+    },
+    {
+      "rep": 19,
+      "outcome": "BLOCKED",
+      "observed": {
+        "replayStatus": 401,
+        "familyDead": true,
+        "replayEvents": 2
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 17.9202,
+      "ms": 302
+    },
+    {
+      "rep": 20,
+      "outcome": "BLOCKED",
+      "observed": {
+        "replayStatus": 401,
+        "familyDead": true,
+        "replayEvents": 2
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 19.4183,
+      "ms": 302
+    },
+    {
+      "rep": 21,
+      "outcome": "BLOCKED",
+      "observed": {
+        "replayStatus": 401,
+        "familyDead": true,
+        "replayEvents": 2
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 18.6958,
+      "ms": 300
+    },
+    {
+      "rep": 22,
+      "outcome": "BLOCKED",
+      "observed": {
+        "replayStatus": 401,
+        "familyDead": true,
+        "replayEvents": 2
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 22.1768,
+      "ms": 306
+    },
+    {
+      "rep": 23,
+      "outcome": "BLOCKED",
+      "observed": {
+        "replayStatus": 401,
+        "familyDead": true,
+        "replayEvents": 2
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 19.2823,
+      "ms": 304
+    },
+    {
+      "rep": 24,
+      "outcome": "BLOCKED",
+      "observed": {
+        "replayStatus": 401,
+        "familyDead": true,
+        "replayEvents": 2
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 21.3143,
+      "ms": 311
+    },
+    {
+      "rep": 25,
+      "outcome": "BLOCKED",
+      "observed": {
+        "replayStatus": 401,
+        "familyDead": true,
+        "replayEvents": 2
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 60.8494,
+      "ms": 356
+    },
+    {
+      "rep": 26,
+      "outcome": "BLOCKED",
+      "observed": {
+        "replayStatus": 401,
+        "familyDead": true,
+        "replayEvents": 2
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 21.4393,
+      "ms": 320
+    },
+    {
+      "rep": 27,
+      "outcome": "BLOCKED",
+      "observed": {
+        "replayStatus": 401,
+        "familyDead": true,
+        "replayEvents": 2
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 20.9623,
+      "ms": 301
+    },
+    {
+      "rep": 28,
+      "outcome": "BLOCKED",
+      "observed": {
+        "replayStatus": 401,
+        "familyDead": true,
+        "replayEvents": 2
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 19.2646,
+      "ms": 301
+    },
+    {
+      "rep": 29,
+      "outcome": "BLOCKED",
+      "observed": {
+        "replayStatus": 401,
+        "familyDead": true,
+        "replayEvents": 2
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 23.2645,
+      "ms": 334
+    },
+    {
+      "rep": 30,
+      "outcome": "BLOCKED",
+      "observed": {
+        "replayStatus": 401,
+        "familyDead": true,
+        "replayEvents": 2
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 19.6772,
+      "ms": 306
+    }
+  ]
+}

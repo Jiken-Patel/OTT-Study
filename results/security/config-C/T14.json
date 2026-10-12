@@ -1,0 +1,459 @@
+{
+  "test": "T14",
+  "name": "Context-spoofing headers; path variants of the same route",
+  "capability": "AC7",
+  "config": "C",
+  "predicted": "BLOCKED",
+  "reps": [
+    {
+      "rep": 1,
+      "outcome": "BLOCKED",
+      "observed": {
+        "methodOverrideStatus": 403,
+        "endpointOverrideStatus": 403,
+        "sameRouteVariantStatus": 200
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 16.5539,
+      "ms": 385
+    },
+    {
+      "rep": 2,
+      "outcome": "BLOCKED",
+      "observed": {
+        "methodOverrideStatus": 403,
+        "endpointOverrideStatus": 403,
+        "sameRouteVariantStatus": 200
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 19.0698,
+      "ms": 341
+    },
+    {
+      "rep": 3,
+      "outcome": "BLOCKED",
+      "observed": {
+        "methodOverrideStatus": 403,
+        "endpointOverrideStatus": 403,
+        "sameRouteVariantStatus": 200
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 20.3089,
+      "ms": 343
+    },
+    {
+      "rep": 4,
+      "outcome": "BLOCKED",
+      "observed": {
+        "methodOverrideStatus": 403,
+        "endpointOverrideStatus": 403,
+        "sameRouteVariantStatus": 200
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 16.5929,
+      "ms": 350
+    },
+    {
+      "rep": 5,
+      "outcome": "BLOCKED",
+      "observed": {
+        "methodOverrideStatus": 403,
+        "endpointOverrideStatus": 403,
+        "sameRouteVariantStatus": 200
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 16.884,
+      "ms": 321
+    },
+    {
+      "rep": 6,
+      "outcome": "BLOCKED",
+      "observed": {
+        "methodOverrideStatus": 403,
+        "endpointOverrideStatus": 403,
+        "sameRouteVariantStatus": 200
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 19.0907,
+      "ms": 328
+    },
+    {
+      "rep": 7,
+      "outcome": "BLOCKED",
+      "observed": {
+        "methodOverrideStatus": 403,
+        "endpointOverrideStatus": 403,
+        "sameRouteVariantStatus": 200
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 18.168,
+      "ms": 351
+    },
+    {
+      "rep": 8,
+      "outcome": "BLOCKED",
+      "observed": {
+        "methodOverrideStatus": 403,
+        "endpointOverrideStatus": 403,
+        "sameRouteVariantStatus": 200
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 18.5974,
+      "ms": 325
+    },
+    {
+      "rep": 9,
+      "outcome": "BLOCKED",
+      "observed": {
+        "methodOverrideStatus": 403,
+        "endpointOverrideStatus": 403,
+        "sameRouteVariantStatus": 200
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 16.9061,
+      "ms": 334
+    },
+    {
+      "rep": 10,
+      "outcome": "BLOCKED",
+      "observed": {
+        "methodOverrideStatus": 403,
+        "endpointOverrideStatus": 403,
+        "sameRouteVariantStatus": 200
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 18.4942,
+      "ms": 339
+    },
+    {
+      "rep": 11,
+      "outcome": "BLOCKED",
+      "observed": {
+        "methodOverrideStatus": 403,
+        "endpointOverrideStatus": 403,
+        "sameRouteVariantStatus": 200
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 15.5484,
+      "ms": 312
+    },
+    {
+      "rep": 12,
+      "outcome": "BLOCKED",
+      "observed": {
+        "methodOverrideStatus": 403,
+        "endpointOverrideStatus": 403,
+        "sameRouteVariantStatus": 200
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 17.8082,
+      "ms": 324
+    },
+    {
+      "rep": 13,
+      "outcome": "BLOCKED",
+      "observed": {
+        "methodOverrideStatus": 403,
+        "endpointOverrideStatus": 403,
+        "sameRouteVariantStatus": 200
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 19.4156,
+      "ms": 337
+    },
+    {
+      "rep": 14,
+      "outcome": "BLOCKED",
+      "observed": {
+        "methodOverrideStatus": 403,
+        "endpointOverrideStatus": 403,
+        "sameRouteVariantStatus": 200
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 18.2105,
+      "ms": 327
+    },
+    {
+      "rep": 15,
+      "outcome": "BLOCKED",
+      "observed": {
+        "methodOverrideStatus": 403,
+        "endpointOverrideStatus": 403,
+        "sameRouteVariantStatus": 200
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 16.2413,
+      "ms": 318
+    },
+    {
+      "rep": 16,
+      "outcome": "BLOCKED",
+      "observed": {
+        "methodOverrideStatus": 403,
+        "endpointOverrideStatus": 403,
+        "sameRouteVariantStatus": 200
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 16.4537,
+      "ms": 334
+    },
+    {
+      "rep": 17,
+      "outcome": "BLOCKED",
+      "observed": {
+        "methodOverrideStatus": 403,
+        "endpointOverrideStatus": 403,
+        "sameRouteVariantStatus": 200
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 18.0177,
+      "ms": 318
+    },
+    {
+      "rep": 18,
+      "outcome": "BLOCKED",
+      "observed": {
+        "methodOverrideStatus": 403,
+        "endpointOverrideStatus": 403,
+        "sameRouteVariantStatus": 200
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 17.4018,
+      "ms": 333
+    },
+    {
+      "rep": 19,
+      "outcome": "BLOCKED",
+      "observed": {
+        "methodOverrideStatus": 403,
+        "endpointOverrideStatus": 403,
+        "sameRouteVariantStatus": 200
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 20.2482,
+      "ms": 341
+    },
+    {
+      "rep": 20,
+      "outcome": "BLOCKED",
+      "observed": {
+        "methodOverrideStatus": 403,
+        "endpointOverrideStatus": 403,
+        "sameRouteVariantStatus": 200
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 19.4644,
+      "ms": 343
+    },
+    {
+      "rep": 21,
+      "outcome": "BLOCKED",
+      "observed": {
+        "methodOverrideStatus": 403,
+        "endpointOverrideStatus": 403,
+        "sameRouteVariantStatus": 200
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 21.0677,
+      "ms": 343
+    },
+    {
+      "rep": 22,
+      "outcome": "BLOCKED",
+      "observed": {
+        "methodOverrideStatus": 403,
+        "endpointOverrideStatus": 403,
+        "sameRouteVariantStatus": 200
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 35.7475,
+      "ms": 358
+    },
+    {
+      "rep": 23,
+      "outcome": "BLOCKED",
+      "observed": {
+        "methodOverrideStatus": 403,
+        "endpointOverrideStatus": 403,
+        "sameRouteVariantStatus": 200
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 20.5356,
+      "ms": 366
+    },
+    {
+      "rep": 24,
+      "outcome": "BLOCKED",
+      "observed": {
+        "methodOverrideStatus": 403,
+        "endpointOverrideStatus": 403,
+        "sameRouteVariantStatus": 200
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 19.7523,
+      "ms": 337
+    },
+    {
+      "rep": 25,
+      "outcome": "BLOCKED",
+      "observed": {
+        "methodOverrideStatus": 403,
+        "endpointOverrideStatus": 403,
+        "sameRouteVariantStatus": 200
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 18.7829,
+      "ms": 546
+    },
+    {
+      "rep": 26,
+      "outcome": "BLOCKED",
+      "observed": {
+        "methodOverrideStatus": 403,
+        "endpointOverrideStatus": 403,
+        "sameRouteVariantStatus": 200
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 39.2298,
+      "ms": 562
+    },
+    {
+      "rep": 27,
+      "outcome": "BLOCKED",
+      "observed": {
+        "methodOverrideStatus": 403,
+        "endpointOverrideStatus": 403,
+        "sameRouteVariantStatus": 200
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 19.948,
+      "ms": 342
+    },
+    {
+      "rep": 28,
+      "outcome": "BLOCKED",
+      "observed": {
+        "methodOverrideStatus": 403,
+        "endpointOverrideStatus": 403,
+        "sameRouteVariantStatus": 200
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 23.3701,
+      "ms": 616
+    },
+    {
+      "rep": 29,
+      "outcome": "BLOCKED",
+      "observed": {
+        "methodOverrideStatus": 403,
+        "endpointOverrideStatus": 403,
+        "sameRouteVariantStatus": 200
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 17.42,
+      "ms": 603
+    },
+    {
+      "rep": 30,
+      "outcome": "BLOCKED",
+      "observed": {
+        "methodOverrideStatus": 403,
+        "endpointOverrideStatus": 403,
+        "sameRouteVariantStatus": 200
+      },
+      "counted": {
+        "attempts": 2,
+        "successes": 0
+      },
+      "latencyMs": 19.4061,
+      "ms": 530
+    }
+  ]
+}

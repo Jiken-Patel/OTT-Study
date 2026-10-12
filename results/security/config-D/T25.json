@@ -1,0 +1,429 @@
+{
+  "test": "T25",
+  "name": "Out-of-order workflow (control)",
+  "capability": "Legit",
+  "config": "D",
+  "predicted": "STEP1_BLOCKED_FINAL_OK",
+  "reps": [
+    {
+      "rep": 1,
+      "outcome": "STEP1_BLOCKED_FINAL_OK",
+      "observed": {
+        "step1": 403,
+        "final": 200,
+        "newLogin": 200,
+        "oldLogin": 401,
+        "successEvents": 1
+      },
+      "counted": null,
+      "latencyMs": 477.6014,
+      "ms": 1208
+    },
+    {
+      "rep": 2,
+      "outcome": "STEP1_BLOCKED_FINAL_OK",
+      "observed": {
+        "step1": 403,
+        "final": 200,
+        "newLogin": 200,
+        "oldLogin": 401,
+        "successEvents": 1
+      },
+      "counted": null,
+      "latencyMs": 448.2843,
+      "ms": 1175
+    },
+    {
+      "rep": 3,
+      "outcome": "STEP1_BLOCKED_FINAL_OK",
+      "observed": {
+        "step1": 403,
+        "final": 200,
+        "newLogin": 200,
+        "oldLogin": 401,
+        "successEvents": 1
+      },
+      "counted": null,
+      "latencyMs": 454.578,
+      "ms": 1169
+    },
+    {
+      "rep": 4,
+      "outcome": "STEP1_BLOCKED_FINAL_OK",
+      "observed": {
+        "step1": 403,
+        "final": 200,
+        "newLogin": 200,
+        "oldLogin": 401,
+        "successEvents": 1
+      },
+      "counted": null,
+      "latencyMs": 479.2294,
+      "ms": 1246
+    },
+    {
+      "rep": 5,
+      "outcome": "STEP1_BLOCKED_FINAL_OK",
+      "observed": {
+        "step1": 403,
+        "final": 200,
+        "newLogin": 200,
+        "oldLogin": 401,
+        "successEvents": 1
+      },
+      "counted": null,
+      "latencyMs": 504.7257,
+      "ms": 1267
+    },
+    {
+      "rep": 6,
+      "outcome": "STEP1_BLOCKED_FINAL_OK",
+      "observed": {
+        "step1": 403,
+        "final": 200,
+        "newLogin": 200,
+        "oldLogin": 401,
+        "successEvents": 1
+      },
+      "counted": null,
+      "latencyMs": 447.4923,
+      "ms": 1290
+    },
+    {
+      "rep": 7,
+      "outcome": "STEP1_BLOCKED_FINAL_OK",
+      "observed": {
+        "step1": 403,
+        "final": 200,
+        "newLogin": 200,
+        "oldLogin": 401,
+        "successEvents": 1
+      },
+      "counted": null,
+      "latencyMs": 447.8401,
+      "ms": 1225
+    },
+    {
+      "rep": 8,
+      "outcome": "STEP1_BLOCKED_FINAL_OK",
+      "observed": {
+        "step1": 403,
+        "final": 200,
+        "newLogin": 200,
+        "oldLogin": 401,
+        "successEvents": 1
+      },
+      "counted": null,
+      "latencyMs": 462.1362,
+      "ms": 1192
+    },
+    {
+      "rep": 9,
+      "outcome": "STEP1_BLOCKED_FINAL_OK",
+      "observed": {
+        "step1": 403,
+        "final": 200,
+        "newLogin": 200,
+        "oldLogin": 401,
+        "successEvents": 1
+      },
+      "counted": null,
+      "latencyMs": 449.74,
+      "ms": 1164
+    },
+    {
+      "rep": 10,
+      "outcome": "STEP1_BLOCKED_FINAL_OK",
+      "observed": {
+        "step1": 403,
+        "final": 200,
+        "newLogin": 200,
+        "oldLogin": 401,
+        "successEvents": 1
+      },
+      "counted": null,
+      "latencyMs": 468.5315,
+      "ms": 1230
+    },
+    {
+      "rep": 11,
+      "outcome": "STEP1_BLOCKED_FINAL_OK",
+      "observed": {
+        "step1": 403,
+        "final": 200,
+        "newLogin": 200,
+        "oldLogin": 401,
+        "successEvents": 1
+      },
+      "counted": null,
+      "latencyMs": 451.311,
+      "ms": 1154
+    },
+    {
+      "rep": 12,
+      "outcome": "STEP1_BLOCKED_FINAL_OK",
+      "observed": {
+        "step1": 403,
+        "final": 200,
+        "newLogin": 200,
+        "oldLogin": 401,
+        "successEvents": 1
+      },
+      "counted": null,
+      "latencyMs": 461.6382,
+      "ms": 1191
+    },
+    {
+      "rep": 13,
+      "outcome": "STEP1_BLOCKED_FINAL_OK",
+      "observed": {
+        "step1": 403,
+        "final": 200,
+        "newLogin": 200,
+        "oldLogin": 401,
+        "successEvents": 1
+      },
+      "counted": null,
+      "latencyMs": 494.936,
+      "ms": 1227
+    },
+    {
+      "rep": 14,
+      "outcome": "STEP1_BLOCKED_FINAL_OK",
+      "observed": {
+        "step1": 403,
+        "final": 200,
+        "newLogin": 200,
+        "oldLogin": 401,
+        "successEvents": 1
+      },
+      "counted": null,
+      "latencyMs": 461.3301,
+      "ms": 1207
+    },
+    {
+      "rep": 15,
+      "outcome": "STEP1_BLOCKED_FINAL_OK",
+      "observed": {
+        "step1": 403,
+        "final": 200,
+        "newLogin": 200,
+        "oldLogin": 401,
+        "successEvents": 1
+      },
+      "counted": null,
+      "latencyMs": 453.3166,
+      "ms": 1199
+    },
+    {
+      "rep": 16,
+      "outcome": "STEP1_BLOCKED_FINAL_OK",
+      "observed": {
+        "step1": 403,
+        "final": 200,
+        "newLogin": 200,
+        "oldLogin": 401,
+        "successEvents": 1
+      },
+      "counted": null,
+      "latencyMs": 466.0774,
+      "ms": 1200
+    },
+    {
+      "rep": 17,
+      "outcome": "STEP1_BLOCKED_FINAL_OK",
+      "observed": {
+        "step1": 403,
+        "final": 200,
+        "newLogin": 200,
+        "oldLogin": 401,
+        "successEvents": 1
+      },
+      "counted": null,
+      "latencyMs": 460.0812,
+      "ms": 1195
+    },
+    {
+      "rep": 18,
+      "outcome": "STEP1_BLOCKED_FINAL_OK",
+      "observed": {
+        "step1": 403,
+        "final": 200,
+        "newLogin": 200,
+        "oldLogin": 401,
+        "successEvents": 1
+      },
+      "counted": null,
+      "latencyMs": 446.5735,
+      "ms": 1184
+    },
+    {
+      "rep": 19,
+      "outcome": "STEP1_BLOCKED_FINAL_OK",
+      "observed": {
+        "step1": 403,
+        "final": 200,
+        "newLogin": 200,
+        "oldLogin": 401,
+        "successEvents": 1
+      },
+      "counted": null,
+      "latencyMs": 462.2174,
+      "ms": 1172
+    },
+    {
+      "rep": 20,
+      "outcome": "STEP1_BLOCKED_FINAL_OK",
+      "observed": {
+        "step1": 403,
+        "final": 200,
+        "newLogin": 200,
+        "oldLogin": 401,
+        "successEvents": 1
+      },
+      "counted": null,
+      "latencyMs": 468.3875,
+      "ms": 1193
+    },
+    {
+      "rep": 21,
+      "outcome": "STEP1_BLOCKED_FINAL_OK",
+      "observed": {
+        "step1": 403,
+        "final": 200,
+        "newLogin": 200,
+        "oldLogin": 401,
+        "successEvents": 1
+      },
+      "counted": null,
+      "latencyMs": 453.9606,
+      "ms": 1158
+    },
+    {
+      "rep": 22,
+      "outcome": "STEP1_BLOCKED_FINAL_OK",
+      "observed": {
+        "step1": 403,
+        "final": 200,
+        "newLogin": 200,
+        "oldLogin": 401,
+        "successEvents": 1
+      },
+      "counted": null,
+      "latencyMs": 458.3141,
+      "ms": 1201
+    },
+    {
+      "rep": 23,
+      "outcome": "STEP1_BLOCKED_FINAL_OK",
+      "observed": {
+        "step1": 403,
+        "final": 200,
+        "newLogin": 200,
+        "oldLogin": 401,
+        "successEvents": 1
+      },
+      "counted": null,
+      "latencyMs": 451.1852,
+      "ms": 1227
+    },
+    {
+      "rep": 24,
+      "outcome": "STEP1_BLOCKED_FINAL_OK",
+      "observed": {
+        "step1": 403,
+        "final": 200,
+        "newLogin": 200,
+        "oldLogin": 401,
+        "successEvents": 1
+      },
+      "counted": null,
+      "latencyMs": 455.0268,
+      "ms": 1190
+    },
+    {
+      "rep": 25,
+      "outcome": "STEP1_BLOCKED_FINAL_OK",
+      "observed": {
+        "step1": 403,
+        "final": 200,
+        "newLogin": 200,
+        "oldLogin": 401,
+        "successEvents": 1
+      },
+      "counted": null,
+      "latencyMs": 448.7606,
+      "ms": 1206
+    },
+    {
+      "rep": 26,
+      "outcome": "STEP1_BLOCKED_FINAL_OK",
+      "observed": {
+        "step1": 403,
+        "final": 200,
+        "newLogin": 200,
+        "oldLogin": 401,
+        "successEvents": 1
+      },
+      "counted": null,
+      "latencyMs": 458.9163,
+      "ms": 1200
+    },
+    {
+      "rep": 27,
+      "outcome": "STEP1_BLOCKED_FINAL_OK",
+      "observed": {
+        "step1": 403,
+        "final": 200,
+        "newLogin": 200,
+        "oldLogin": 401,
+        "successEvents": 1
+      },
+      "counted": null,
+      "latencyMs": 461.2466,
+      "ms": 1209
+    },
+    {
+      "rep": 28,
+      "outcome": "STEP1_BLOCKED_FINAL_OK",
+      "observed": {
+        "step1": 403,
+        "final": 200,
+        "newLogin": 200,
+        "oldLogin": 401,
+        "successEvents": 1
+      },
+      "counted": null,
+      "latencyMs": 455.6451,
+      "ms": 1198
+    },
+    {
+      "rep": 29,
+      "outcome": "STEP1_BLOCKED_FINAL_OK",
+      "observed": {
+        "step1": 403,
+        "final": 200,
+        "newLogin": 200,
+        "oldLogin": 401,
+        "successEvents": 1
+      },
+      "counted": null,
+      "latencyMs": 456.0138,
+      "ms": 1196
+    },
+    {
+      "rep": 30,
+      "outcome": "STEP1_BLOCKED_FINAL_OK",
+      "observed": {
+        "step1": 403,
+        "final": 200,
+        "newLogin": 200,
+        "oldLogin": 401,
+        "successEvents": 1
+      },
+      "counted": null,
+      "latencyMs": 454.6491,
+      "ms": 1164
+    }
+  ]
+}

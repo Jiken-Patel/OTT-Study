@@ -1,0 +1,643 @@
+{
+  "test": "T03",
+  "name": "Stolen refresh JWT (a: attacker rotates, b: replay detected, c: sensitive op)",
+  "capability": "AC2",
+  "config": "C",
+  "predicted": {
+    "a": "BOUNDARY",
+    "b": "DETECTED",
+    "c": "BLOCKED"
+  },
+  "reps": [
+    {
+      "rep": 1,
+      "outcome": {
+        "a": "BOUNDARY",
+        "b": "DETECTED",
+        "c": "BLOCKED"
+      },
+      "observed": {
+        "statusA": 200,
+        "statusB": 401,
+        "replayEventsDelta": 1,
+        "attackerRefreshDead": true,
+        "accessStillWorks": true
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 19.972,
+      "ms": 320
+    },
+    {
+      "rep": 2,
+      "outcome": {
+        "a": "BOUNDARY",
+        "b": "DETECTED",
+        "c": "BLOCKED"
+      },
+      "observed": {
+        "statusA": 200,
+        "statusB": 401,
+        "replayEventsDelta": 1,
+        "attackerRefreshDead": true,
+        "accessStillWorks": true
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 21.6117,
+      "ms": 328
+    },
+    {
+      "rep": 3,
+      "outcome": {
+        "a": "BOUNDARY",
+        "b": "DETECTED",
+        "c": "BLOCKED"
+      },
+      "observed": {
+        "statusA": 200,
+        "statusB": 401,
+        "replayEventsDelta": 1,
+        "attackerRefreshDead": true,
+        "accessStillWorks": true
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 24.1447,
+      "ms": 330
+    },
+    {
+      "rep": 4,
+      "outcome": {
+        "a": "BOUNDARY",
+        "b": "DETECTED",
+        "c": "BLOCKED"
+      },
+      "observed": {
+        "statusA": 200,
+        "statusB": 401,
+        "replayEventsDelta": 1,
+        "attackerRefreshDead": true,
+        "accessStillWorks": true
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 20.1643,
+      "ms": 320
+    },
+    {
+      "rep": 5,
+      "outcome": {
+        "a": "BOUNDARY",
+        "b": "DETECTED",
+        "c": "BLOCKED"
+      },
+      "observed": {
+        "statusA": 200,
+        "statusB": 401,
+        "replayEventsDelta": 1,
+        "attackerRefreshDead": true,
+        "accessStillWorks": true
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 20.4489,
+      "ms": 328
+    },
+    {
+      "rep": 6,
+      "outcome": {
+        "a": "BOUNDARY",
+        "b": "DETECTED",
+        "c": "BLOCKED"
+      },
+      "observed": {
+        "statusA": 200,
+        "statusB": 401,
+        "replayEventsDelta": 1,
+        "attackerRefreshDead": true,
+        "accessStillWorks": true
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 19.7047,
+      "ms": 325
+    },
+    {
+      "rep": 7,
+      "outcome": {
+        "a": "BOUNDARY",
+        "b": "DETECTED",
+        "c": "BLOCKED"
+      },
+      "observed": {
+        "statusA": 200,
+        "statusB": 401,
+        "replayEventsDelta": 1,
+        "attackerRefreshDead": true,
+        "accessStillWorks": true
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 18.5002,
+      "ms": 310
+    },
+    {
+      "rep": 8,
+      "outcome": {
+        "a": "BOUNDARY",
+        "b": "DETECTED",
+        "c": "BLOCKED"
+      },
+      "observed": {
+        "statusA": 200,
+        "statusB": 401,
+        "replayEventsDelta": 1,
+        "attackerRefreshDead": true,
+        "accessStillWorks": true
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 20.6309,
+      "ms": 319
+    },
+    {
+      "rep": 9,
+      "outcome": {
+        "a": "BOUNDARY",
+        "b": "DETECTED",
+        "c": "BLOCKED"
+      },
+      "observed": {
+        "statusA": 200,
+        "statusB": 401,
+        "replayEventsDelta": 1,
+        "attackerRefreshDead": true,
+        "accessStillWorks": true
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 22.4973,
+      "ms": 332
+    },
+    {
+      "rep": 10,
+      "outcome": {
+        "a": "BOUNDARY",
+        "b": "DETECTED",
+        "c": "BLOCKED"
+      },
+      "observed": {
+        "statusA": 200,
+        "statusB": 401,
+        "replayEventsDelta": 1,
+        "attackerRefreshDead": true,
+        "accessStillWorks": true
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 29.9932,
+      "ms": 335
+    },
+    {
+      "rep": 11,
+      "outcome": {
+        "a": "BOUNDARY",
+        "b": "DETECTED",
+        "c": "BLOCKED"
+      },
+      "observed": {
+        "statusA": 200,
+        "statusB": 401,
+        "replayEventsDelta": 1,
+        "attackerRefreshDead": true,
+        "accessStillWorks": true
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 18.7535,
+      "ms": 307
+    },
+    {
+      "rep": 12,
+      "outcome": {
+        "a": "BOUNDARY",
+        "b": "DETECTED",
+        "c": "BLOCKED"
+      },
+      "observed": {
+        "statusA": 200,
+        "statusB": 401,
+        "replayEventsDelta": 1,
+        "attackerRefreshDead": true,
+        "accessStillWorks": true
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 23.1836,
+      "ms": 331
+    },
+    {
+      "rep": 13,
+      "outcome": {
+        "a": "BOUNDARY",
+        "b": "DETECTED",
+        "c": "BLOCKED"
+      },
+      "observed": {
+        "statusA": 200,
+        "statusB": 401,
+        "replayEventsDelta": 1,
+        "attackerRefreshDead": true,
+        "accessStillWorks": true
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 18.3607,
+      "ms": 327
+    },
+    {
+      "rep": 14,
+      "outcome": {
+        "a": "BOUNDARY",
+        "b": "DETECTED",
+        "c": "BLOCKED"
+      },
+      "observed": {
+        "statusA": 200,
+        "statusB": 401,
+        "replayEventsDelta": 1,
+        "attackerRefreshDead": true,
+        "accessStillWorks": true
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 22.3388,
+      "ms": 323
+    },
+    {
+      "rep": 15,
+      "outcome": {
+        "a": "BOUNDARY",
+        "b": "DETECTED",
+        "c": "BLOCKED"
+      },
+      "observed": {
+        "statusA": 200,
+        "statusB": 401,
+        "replayEventsDelta": 1,
+        "attackerRefreshDead": true,
+        "accessStillWorks": true
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 20.6092,
+      "ms": 317
+    },
+    {
+      "rep": 16,
+      "outcome": {
+        "a": "BOUNDARY",
+        "b": "DETECTED",
+        "c": "BLOCKED"
+      },
+      "observed": {
+        "statusA": 200,
+        "statusB": 401,
+        "replayEventsDelta": 1,
+        "attackerRefreshDead": true,
+        "accessStillWorks": true
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 21.8933,
+      "ms": 335
+    },
+    {
+      "rep": 17,
+      "outcome": {
+        "a": "BOUNDARY",
+        "b": "DETECTED",
+        "c": "BLOCKED"
+      },
+      "observed": {
+        "statusA": 200,
+        "statusB": 401,
+        "replayEventsDelta": 1,
+        "attackerRefreshDead": true,
+        "accessStillWorks": true
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 29.1083,
+      "ms": 425
+    },
+    {
+      "rep": 18,
+      "outcome": {
+        "a": "BOUNDARY",
+        "b": "DETECTED",
+        "c": "BLOCKED"
+      },
+      "observed": {
+        "statusA": 200,
+        "statusB": 401,
+        "replayEventsDelta": 1,
+        "attackerRefreshDead": true,
+        "accessStillWorks": true
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 24.65,
+      "ms": 357
+    },
+    {
+      "rep": 19,
+      "outcome": {
+        "a": "BOUNDARY",
+        "b": "DETECTED",
+        "c": "BLOCKED"
+      },
+      "observed": {
+        "statusA": 200,
+        "statusB": 401,
+        "replayEventsDelta": 1,
+        "attackerRefreshDead": true,
+        "accessStillWorks": true
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 20.3038,
+      "ms": 322
+    },
+    {
+      "rep": 20,
+      "outcome": {
+        "a": "BOUNDARY",
+        "b": "DETECTED",
+        "c": "BLOCKED"
+      },
+      "observed": {
+        "statusA": 200,
+        "statusB": 401,
+        "replayEventsDelta": 1,
+        "attackerRefreshDead": true,
+        "accessStillWorks": true
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 19.3485,
+      "ms": 327
+    },
+    {
+      "rep": 21,
+      "outcome": {
+        "a": "BOUNDARY",
+        "b": "DETECTED",
+        "c": "BLOCKED"
+      },
+      "observed": {
+        "statusA": 200,
+        "statusB": 401,
+        "replayEventsDelta": 1,
+        "attackerRefreshDead": true,
+        "accessStillWorks": true
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 25.7025,
+      "ms": 333
+    },
+    {
+      "rep": 22,
+      "outcome": {
+        "a": "BOUNDARY",
+        "b": "DETECTED",
+        "c": "BLOCKED"
+      },
+      "observed": {
+        "statusA": 200,
+        "statusB": 401,
+        "replayEventsDelta": 1,
+        "attackerRefreshDead": true,
+        "accessStillWorks": true
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 21.7305,
+      "ms": 408
+    },
+    {
+      "rep": 23,
+      "outcome": {
+        "a": "BOUNDARY",
+        "b": "DETECTED",
+        "c": "BLOCKED"
+      },
+      "observed": {
+        "statusA": 200,
+        "statusB": 401,
+        "replayEventsDelta": 1,
+        "attackerRefreshDead": true,
+        "accessStillWorks": true
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 21.8399,
+      "ms": 395
+    },
+    {
+      "rep": 24,
+      "outcome": {
+        "a": "BOUNDARY",
+        "b": "DETECTED",
+        "c": "BLOCKED"
+      },
+      "observed": {
+        "statusA": 200,
+        "statusB": 401,
+        "replayEventsDelta": 1,
+        "attackerRefreshDead": true,
+        "accessStillWorks": true
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 20.6555,
+      "ms": 320
+    },
+    {
+      "rep": 25,
+      "outcome": {
+        "a": "BOUNDARY",
+        "b": "DETECTED",
+        "c": "BLOCKED"
+      },
+      "observed": {
+        "statusA": 200,
+        "statusB": 401,
+        "replayEventsDelta": 1,
+        "attackerRefreshDead": true,
+        "accessStillWorks": true
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 21.6119,
+      "ms": 451
+    },
+    {
+      "rep": 26,
+      "outcome": {
+        "a": "BOUNDARY",
+        "b": "DETECTED",
+        "c": "BLOCKED"
+      },
+      "observed": {
+        "statusA": 200,
+        "statusB": 401,
+        "replayEventsDelta": 1,
+        "attackerRefreshDead": true,
+        "accessStillWorks": true
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 16.4667,
+      "ms": 323
+    },
+    {
+      "rep": 27,
+      "outcome": {
+        "a": "BOUNDARY",
+        "b": "DETECTED",
+        "c": "BLOCKED"
+      },
+      "observed": {
+        "statusA": 200,
+        "statusB": 401,
+        "replayEventsDelta": 1,
+        "attackerRefreshDead": true,
+        "accessStillWorks": true
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 17.8533,
+      "ms": 326
+    },
+    {
+      "rep": 28,
+      "outcome": {
+        "a": "BOUNDARY",
+        "b": "DETECTED",
+        "c": "BLOCKED"
+      },
+      "observed": {
+        "statusA": 200,
+        "statusB": 401,
+        "replayEventsDelta": 1,
+        "attackerRefreshDead": true,
+        "accessStillWorks": true
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 31.8724,
+      "ms": 440
+    },
+    {
+      "rep": 29,
+      "outcome": {
+        "a": "BOUNDARY",
+        "b": "DETECTED",
+        "c": "BLOCKED"
+      },
+      "observed": {
+        "statusA": 200,
+        "statusB": 401,
+        "replayEventsDelta": 1,
+        "attackerRefreshDead": true,
+        "accessStillWorks": true
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 24.5393,
+      "ms": 475
+    },
+    {
+      "rep": 30,
+      "outcome": {
+        "a": "BOUNDARY",
+        "b": "DETECTED",
+        "c": "BLOCKED"
+      },
+      "observed": {
+        "statusA": 200,
+        "statusB": 401,
+        "replayEventsDelta": 1,
+        "attackerRefreshDead": true,
+        "accessStillWorks": true
+      },
+      "counted": {
+        "attempts": 1,
+        "successes": 0
+      },
+      "latencyMs": 20.9536,
+      "ms": 352
+    }
+  ]
+}

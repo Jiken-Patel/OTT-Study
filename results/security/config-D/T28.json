@@ -1,0 +1,519 @@
+{
+  "test": "T28",
+  "name": "Password guessing against re-entry (Config D)",
+  "capability": "AC12",
+  "config": "D",
+  "predicted": "RATE_LIMITED",
+  "reps": [
+    {
+      "rep": 1,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "firstBlocked": 11,
+        "statuses": {
+          "403": 10,
+          "429": 90
+        }
+      },
+      "counted": {
+        "attempts": 100,
+        "successes": 0
+      },
+      "latencyMs": 226.5459,
+      "ms": 2644
+    },
+    {
+      "rep": 2,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "firstBlocked": 11,
+        "statuses": {
+          "403": 10,
+          "429": 90
+        }
+      },
+      "counted": {
+        "attempts": 100,
+        "successes": 0
+      },
+      "latencyMs": 226.4255,
+      "ms": 2635
+    },
+    {
+      "rep": 3,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "firstBlocked": 11,
+        "statuses": {
+          "403": 10,
+          "429": 90
+        }
+      },
+      "counted": {
+        "attempts": 100,
+        "successes": 0
+      },
+      "latencyMs": 224.1323,
+      "ms": 2616
+    },
+    {
+      "rep": 4,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "firstBlocked": 11,
+        "statuses": {
+          "403": 10,
+          "429": 90
+        }
+      },
+      "counted": {
+        "attempts": 100,
+        "successes": 0
+      },
+      "latencyMs": 230.1629,
+      "ms": 2674
+    },
+    {
+      "rep": 5,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "firstBlocked": 11,
+        "statuses": {
+          "403": 10,
+          "429": 90
+        }
+      },
+      "counted": {
+        "attempts": 100,
+        "successes": 0
+      },
+      "latencyMs": 240.8287,
+      "ms": 2627
+    },
+    {
+      "rep": 6,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "firstBlocked": 11,
+        "statuses": {
+          "403": 10,
+          "429": 90
+        }
+      },
+      "counted": {
+        "attempts": 100,
+        "successes": 0
+      },
+      "latencyMs": 239.3559,
+      "ms": 2666
+    },
+    {
+      "rep": 7,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "firstBlocked": 11,
+        "statuses": {
+          "403": 10,
+          "429": 90
+        }
+      },
+      "counted": {
+        "attempts": 100,
+        "successes": 0
+      },
+      "latencyMs": 226.5556,
+      "ms": 2626
+    },
+    {
+      "rep": 8,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "firstBlocked": 11,
+        "statuses": {
+          "403": 10,
+          "429": 90
+        }
+      },
+      "counted": {
+        "attempts": 100,
+        "successes": 0
+      },
+      "latencyMs": 235.6412,
+      "ms": 2633
+    },
+    {
+      "rep": 9,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "firstBlocked": 11,
+        "statuses": {
+          "403": 10,
+          "429": 90
+        }
+      },
+      "counted": {
+        "attempts": 100,
+        "successes": 0
+      },
+      "latencyMs": 240.5559,
+      "ms": 2658
+    },
+    {
+      "rep": 10,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "firstBlocked": 11,
+        "statuses": {
+          "403": 10,
+          "429": 90
+        }
+      },
+      "counted": {
+        "attempts": 100,
+        "successes": 0
+      },
+      "latencyMs": 229.145,
+      "ms": 2616
+    },
+    {
+      "rep": 11,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "firstBlocked": 11,
+        "statuses": {
+          "403": 10,
+          "429": 90
+        }
+      },
+      "counted": {
+        "attempts": 100,
+        "successes": 0
+      },
+      "latencyMs": 225.7285,
+      "ms": 2644
+    },
+    {
+      "rep": 12,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "firstBlocked": 11,
+        "statuses": {
+          "403": 10,
+          "429": 90
+        }
+      },
+      "counted": {
+        "attempts": 100,
+        "successes": 0
+      },
+      "latencyMs": 223.7443,
+      "ms": 3380
+    },
+    {
+      "rep": 13,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "firstBlocked": 11,
+        "statuses": {
+          "403": 10,
+          "429": 90
+        }
+      },
+      "counted": {
+        "attempts": 100,
+        "successes": 0
+      },
+      "latencyMs": 291.19,
+      "ms": 6253
+    },
+    {
+      "rep": 14,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "firstBlocked": 11,
+        "statuses": {
+          "403": 10,
+          "429": 90
+        }
+      },
+      "counted": {
+        "attempts": 100,
+        "successes": 0
+      },
+      "latencyMs": 254.3422,
+      "ms": 5432
+    },
+    {
+      "rep": 15,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "firstBlocked": 11,
+        "statuses": {
+          "403": 10,
+          "429": 90
+        }
+      },
+      "counted": {
+        "attempts": 100,
+        "successes": 0
+      },
+      "latencyMs": 373.0306,
+      "ms": 4396
+    },
+    {
+      "rep": 16,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "firstBlocked": 11,
+        "statuses": {
+          "403": 10,
+          "429": 90
+        }
+      },
+      "counted": {
+        "attempts": 100,
+        "successes": 0
+      },
+      "latencyMs": 255.5165,
+      "ms": 4094
+    },
+    {
+      "rep": 17,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "firstBlocked": 11,
+        "statuses": {
+          "403": 10,
+          "429": 90
+        }
+      },
+      "counted": {
+        "attempts": 100,
+        "successes": 0
+      },
+      "latencyMs": 308.7575,
+      "ms": 4070
+    },
+    {
+      "rep": 18,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "firstBlocked": 11,
+        "statuses": {
+          "403": 10,
+          "429": 90
+        }
+      },
+      "counted": {
+        "attempts": 100,
+        "successes": 0
+      },
+      "latencyMs": 301.0025,
+      "ms": 4856
+    },
+    {
+      "rep": 19,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "firstBlocked": 11,
+        "statuses": {
+          "403": 10,
+          "429": 90
+        }
+      },
+      "counted": {
+        "attempts": 100,
+        "successes": 0
+      },
+      "latencyMs": 325.4903,
+      "ms": 4935
+    },
+    {
+      "rep": 20,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "firstBlocked": 11,
+        "statuses": {
+          "403": 10,
+          "429": 90
+        }
+      },
+      "counted": {
+        "attempts": 100,
+        "successes": 0
+      },
+      "latencyMs": 764.5246,
+      "ms": 5567
+    },
+    {
+      "rep": 21,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "firstBlocked": 11,
+        "statuses": {
+          "403": 10,
+          "429": 90
+        }
+      },
+      "counted": {
+        "attempts": 100,
+        "successes": 0
+      },
+      "latencyMs": 531.1457,
+      "ms": 4057
+    },
+    {
+      "rep": 22,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "firstBlocked": 11,
+        "statuses": {
+          "403": 10,
+          "429": 90
+        }
+      },
+      "counted": {
+        "attempts": 100,
+        "successes": 0
+      },
+      "latencyMs": 223.5961,
+      "ms": 2598
+    },
+    {
+      "rep": 23,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "firstBlocked": 11,
+        "statuses": {
+          "403": 10,
+          "429": 90
+        }
+      },
+      "counted": {
+        "attempts": 100,
+        "successes": 0
+      },
+      "latencyMs": 230.9126,
+      "ms": 2590
+    },
+    {
+      "rep": 24,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "firstBlocked": 11,
+        "statuses": {
+          "403": 10,
+          "429": 90
+        }
+      },
+      "counted": {
+        "attempts": 100,
+        "successes": 0
+      },
+      "latencyMs": 241.4977,
+      "ms": 2614
+    },
+    {
+      "rep": 25,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "firstBlocked": 11,
+        "statuses": {
+          "403": 10,
+          "429": 90
+        }
+      },
+      "counted": {
+        "attempts": 100,
+        "successes": 0
+      },
+      "latencyMs": 234.2848,
+      "ms": 2622
+    },
+    {
+      "rep": 26,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "firstBlocked": 11,
+        "statuses": {
+          "403": 10,
+          "429": 90
+        }
+      },
+      "counted": {
+        "attempts": 100,
+        "successes": 0
+      },
+      "latencyMs": 223.2729,
+      "ms": 2612
+    },
+    {
+      "rep": 27,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "firstBlocked": 11,
+        "statuses": {
+          "403": 10,
+          "429": 90
+        }
+      },
+      "counted": {
+        "attempts": 100,
+        "successes": 0
+      },
+      "latencyMs": 234.854,
+      "ms": 2587
+    },
+    {
+      "rep": 28,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "firstBlocked": 11,
+        "statuses": {
+          "403": 10,
+          "429": 90
+        }
+      },
+      "counted": {
+        "attempts": 100,
+        "successes": 0
+      },
+      "latencyMs": 239.6069,
+      "ms": 2631
+    },
+    {
+      "rep": 29,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "firstBlocked": 11,
+        "statuses": {
+          "403": 10,
+          "429": 90
+        }
+      },
+      "counted": {
+        "attempts": 100,
+        "successes": 0
+      },
+      "latencyMs": 225.6805,
+      "ms": 2617
+    },
+    {
+      "rep": 30,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "firstBlocked": 11,
+        "statuses": {
+          "403": 10,
+          "429": 90
+        }
+      },
+      "counted": {
+        "attempts": 100,
+        "successes": 0
+      },
+      "latencyMs": 228.0307,
+      "ms": 2625
+    }
+  ]
+}

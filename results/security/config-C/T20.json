@@ -1,0 +1,549 @@
+{
+  "test": "T20",
+  "name": "OTT-issuance flooding",
+  "capability": "AC10",
+  "config": "C",
+  "predicted": "RATE_LIMITED",
+  "reps": [
+    {
+      "rep": 1,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "statuses": {
+          "202": 5,
+          "429": 15
+        },
+        "firstBlocked": 6,
+        "otpsDelivered": 5
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": 26.1658,
+      "ms": 442
+    },
+    {
+      "rep": 2,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "statuses": {
+          "202": 5,
+          "429": 15
+        },
+        "firstBlocked": 6,
+        "otpsDelivered": 5
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": 20.9783,
+      "ms": 404
+    },
+    {
+      "rep": 3,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "statuses": {
+          "202": 5,
+          "429": 15
+        },
+        "firstBlocked": 6,
+        "otpsDelivered": 5
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": 20.2911,
+      "ms": 381
+    },
+    {
+      "rep": 4,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "statuses": {
+          "202": 5,
+          "429": 15
+        },
+        "firstBlocked": 6,
+        "otpsDelivered": 5
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": 24.5004,
+      "ms": 405
+    },
+    {
+      "rep": 5,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "statuses": {
+          "202": 5,
+          "429": 15
+        },
+        "firstBlocked": 6,
+        "otpsDelivered": 5
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": 18.3124,
+      "ms": 393
+    },
+    {
+      "rep": 6,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "statuses": {
+          "202": 5,
+          "429": 15
+        },
+        "firstBlocked": 6,
+        "otpsDelivered": 5
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": 18.8021,
+      "ms": 416
+    },
+    {
+      "rep": 7,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "statuses": {
+          "202": 5,
+          "429": 15
+        },
+        "firstBlocked": 6,
+        "otpsDelivered": 5
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": 22.053,
+      "ms": 392
+    },
+    {
+      "rep": 8,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "statuses": {
+          "202": 5,
+          "429": 15
+        },
+        "firstBlocked": 6,
+        "otpsDelivered": 5
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": 22.0596,
+      "ms": 397
+    },
+    {
+      "rep": 9,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "statuses": {
+          "202": 5,
+          "429": 15
+        },
+        "firstBlocked": 6,
+        "otpsDelivered": 5
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": 22.3266,
+      "ms": 385
+    },
+    {
+      "rep": 10,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "statuses": {
+          "202": 5,
+          "429": 15
+        },
+        "firstBlocked": 6,
+        "otpsDelivered": 5
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": 19.5875,
+      "ms": 382
+    },
+    {
+      "rep": 11,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "statuses": {
+          "202": 5,
+          "429": 15
+        },
+        "firstBlocked": 6,
+        "otpsDelivered": 5
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": 24.3397,
+      "ms": 401
+    },
+    {
+      "rep": 12,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "statuses": {
+          "202": 5,
+          "429": 15
+        },
+        "firstBlocked": 6,
+        "otpsDelivered": 5
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": 16.0664,
+      "ms": 374
+    },
+    {
+      "rep": 13,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "statuses": {
+          "202": 5,
+          "429": 15
+        },
+        "firstBlocked": 6,
+        "otpsDelivered": 5
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": 17.6189,
+      "ms": 384
+    },
+    {
+      "rep": 14,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "statuses": {
+          "202": 5,
+          "429": 15
+        },
+        "firstBlocked": 6,
+        "otpsDelivered": 5
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": 18.0392,
+      "ms": 389
+    },
+    {
+      "rep": 15,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "statuses": {
+          "202": 5,
+          "429": 15
+        },
+        "firstBlocked": 6,
+        "otpsDelivered": 5
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": 53.6916,
+      "ms": 422
+    },
+    {
+      "rep": 16,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "statuses": {
+          "202": 5,
+          "429": 15
+        },
+        "firstBlocked": 6,
+        "otpsDelivered": 5
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": 25.3784,
+      "ms": 395
+    },
+    {
+      "rep": 17,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "statuses": {
+          "202": 5,
+          "429": 15
+        },
+        "firstBlocked": 6,
+        "otpsDelivered": 5
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": 20.6621,
+      "ms": 375
+    },
+    {
+      "rep": 18,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "statuses": {
+          "202": 5,
+          "429": 15
+        },
+        "firstBlocked": 6,
+        "otpsDelivered": 5
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": 26.1039,
+      "ms": 390
+    },
+    {
+      "rep": 19,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "statuses": {
+          "202": 5,
+          "429": 15
+        },
+        "firstBlocked": 6,
+        "otpsDelivered": 5
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": 21.344,
+      "ms": 389
+    },
+    {
+      "rep": 20,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "statuses": {
+          "202": 5,
+          "429": 15
+        },
+        "firstBlocked": 6,
+        "otpsDelivered": 5
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": 19.0851,
+      "ms": 382
+    },
+    {
+      "rep": 21,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "statuses": {
+          "202": 5,
+          "429": 15
+        },
+        "firstBlocked": 6,
+        "otpsDelivered": 5
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": 17.247,
+      "ms": 367
+    },
+    {
+      "rep": 22,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "statuses": {
+          "202": 5,
+          "429": 15
+        },
+        "firstBlocked": 6,
+        "otpsDelivered": 5
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": 18.9833,
+      "ms": 400
+    },
+    {
+      "rep": 23,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "statuses": {
+          "202": 5,
+          "429": 15
+        },
+        "firstBlocked": 6,
+        "otpsDelivered": 5
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": 17.9738,
+      "ms": 383
+    },
+    {
+      "rep": 24,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "statuses": {
+          "202": 5,
+          "429": 15
+        },
+        "firstBlocked": 6,
+        "otpsDelivered": 5
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": 19.6236,
+      "ms": 381
+    },
+    {
+      "rep": 25,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "statuses": {
+          "202": 5,
+          "429": 15
+        },
+        "firstBlocked": 6,
+        "otpsDelivered": 5
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": 19.735,
+      "ms": 389
+    },
+    {
+      "rep": 26,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "statuses": {
+          "202": 5,
+          "429": 15
+        },
+        "firstBlocked": 6,
+        "otpsDelivered": 5
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": 22.7172,
+      "ms": 407
+    },
+    {
+      "rep": 27,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "statuses": {
+          "202": 5,
+          "429": 15
+        },
+        "firstBlocked": 6,
+        "otpsDelivered": 5
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": 19.4103,
+      "ms": 390
+    },
+    {
+      "rep": 28,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "statuses": {
+          "202": 5,
+          "429": 15
+        },
+        "firstBlocked": 6,
+        "otpsDelivered": 5
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": 21.462,
+      "ms": 384
+    },
+    {
+      "rep": 29,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "statuses": {
+          "202": 5,
+          "429": 15
+        },
+        "firstBlocked": 6,
+        "otpsDelivered": 5
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": 17.7948,
+      "ms": 423
+    },
+    {
+      "rep": 30,
+      "outcome": "RATE_LIMITED",
+      "observed": {
+        "statuses": {
+          "202": 5,
+          "429": 15
+        },
+        "firstBlocked": 6,
+        "otpsDelivered": 5
+      },
+      "counted": {
+        "attempts": 20,
+        "successes": 0
+      },
+      "latencyMs": 19.9479,
+      "ms": 394
+    }
+  ]
+}

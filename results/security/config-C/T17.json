@@ -1,0 +1,2209 @@
+{
+  "test": "T17",
+  "name": "50 parallel uses of one OTT",
+  "capability": "AC9",
+  "config": "C",
+  "predicted": "INVARIANT_HELD",
+  "reps": [
+    {
+      "rep": 1,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 727.5298,
+      "ms": 991
+    },
+    {
+      "rep": 2,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 742.6297,
+      "ms": 1000
+    },
+    {
+      "rep": 3,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 724.5665,
+      "ms": 993
+    },
+    {
+      "rep": 4,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 762.8072,
+      "ms": 1046
+    },
+    {
+      "rep": 5,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 714.4499,
+      "ms": 973
+    },
+    {
+      "rep": 6,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 739.882,
+      "ms": 1010
+    },
+    {
+      "rep": 7,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 694.3757,
+      "ms": 952
+    },
+    {
+      "rep": 8,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 734.5614,
+      "ms": 1017
+    },
+    {
+      "rep": 9,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 747.972,
+      "ms": 1021
+    },
+    {
+      "rep": 10,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 729.6753,
+      "ms": 1001
+    },
+    {
+      "rep": 11,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 721.7054,
+      "ms": 988
+    },
+    {
+      "rep": 12,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 747.478,
+      "ms": 1013
+    },
+    {
+      "rep": 13,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 736.8888,
+      "ms": 1018
+    },
+    {
+      "rep": 14,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 714.504,
+      "ms": 977
+    },
+    {
+      "rep": 15,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 664.6628,
+      "ms": 936
+    },
+    {
+      "rep": 16,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 668.7973,
+      "ms": 948
+    },
+    {
+      "rep": 17,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 695.6422,
+      "ms": 969
+    },
+    {
+      "rep": 18,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 746.7216,
+      "ms": 1024
+    },
+    {
+      "rep": 19,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 726.7186,
+      "ms": 999
+    },
+    {
+      "rep": 20,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 736.3549,
+      "ms": 1017
+    },
+    {
+      "rep": 21,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 693.7959,
+      "ms": 967
+    },
+    {
+      "rep": 22,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 676.5484,
+      "ms": 943
+    },
+    {
+      "rep": 23,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 668.8865,
+      "ms": 937
+    },
+    {
+      "rep": 24,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 698.255,
+      "ms": 966
+    },
+    {
+      "rep": 25,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 649.6833,
+      "ms": 916
+    },
+    {
+      "rep": 26,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 673.5122,
+      "ms": 959
+    },
+    {
+      "rep": 27,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 662.5841,
+      "ms": 935
+    },
+    {
+      "rep": 28,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 682.1318,
+      "ms": 952
+    },
+    {
+      "rep": 29,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 730.2688,
+      "ms": 1005
+    },
+    {
+      "rep": 30,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 645.5494,
+      "ms": 919
+    },
+    {
+      "rep": 31,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 687.7192,
+      "ms": 960
+    },
+    {
+      "rep": 32,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 679.0004,
+      "ms": 944
+    },
+    {
+      "rep": 33,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 672.3662,
+      "ms": 940
+    },
+    {
+      "rep": 34,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 672.8848,
+      "ms": 938
+    },
+    {
+      "rep": 35,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 729.185,
+      "ms": 991
+    },
+    {
+      "rep": 36,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 731.1462,
+      "ms": 1007
+    },
+    {
+      "rep": 37,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 751.6227,
+      "ms": 1030
+    },
+    {
+      "rep": 38,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 693.6138,
+      "ms": 962
+    },
+    {
+      "rep": 39,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 690.9328,
+      "ms": 968
+    },
+    {
+      "rep": 40,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 710.5084,
+      "ms": 981
+    },
+    {
+      "rep": 41,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 685.0027,
+      "ms": 961
+    },
+    {
+      "rep": 42,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 663.653,
+      "ms": 926
+    },
+    {
+      "rep": 43,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 691.9099,
+      "ms": 974
+    },
+    {
+      "rep": 44,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 652.2854,
+      "ms": 922
+    },
+    {
+      "rep": 45,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 642.7194,
+      "ms": 912
+    },
+    {
+      "rep": 46,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 692.7022,
+      "ms": 1001
+    },
+    {
+      "rep": 47,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 650.444,
+      "ms": 928
+    },
+    {
+      "rep": 48,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 688.6556,
+      "ms": 959
+    },
+    {
+      "rep": 49,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 756.3909,
+      "ms": 1029
+    },
+    {
+      "rep": 50,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 714.9657,
+      "ms": 992
+    },
+    {
+      "rep": 51,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 783.4425,
+      "ms": 1047
+    },
+    {
+      "rep": 52,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 648.4169,
+      "ms": 928
+    },
+    {
+      "rep": 53,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 692.0054,
+      "ms": 974
+    },
+    {
+      "rep": 54,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 692.8959,
+      "ms": 965
+    },
+    {
+      "rep": 55,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 667.754,
+      "ms": 944
+    },
+    {
+      "rep": 56,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 662.3431,
+      "ms": 927
+    },
+    {
+      "rep": 57,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 745.1323,
+      "ms": 1011
+    },
+    {
+      "rep": 58,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 670.8466,
+      "ms": 938
+    },
+    {
+      "rep": 59,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 653.9221,
+      "ms": 928
+    },
+    {
+      "rep": 60,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 685.9328,
+      "ms": 947
+    },
+    {
+      "rep": 61,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 679.3453,
+      "ms": 959
+    },
+    {
+      "rep": 62,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 1737.9272,
+      "ms": 2006
+    },
+    {
+      "rep": 63,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 755.6819,
+      "ms": 1012
+    },
+    {
+      "rep": 64,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 708.5203,
+      "ms": 981
+    },
+    {
+      "rep": 65,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 751.5453,
+      "ms": 1020
+    },
+    {
+      "rep": 66,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 691.5948,
+      "ms": 961
+    },
+    {
+      "rep": 67,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 716.5128,
+      "ms": 1000
+    },
+    {
+      "rep": 68,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 763.2053,
+      "ms": 1051
+    },
+    {
+      "rep": 69,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 716.9638,
+      "ms": 990
+    },
+    {
+      "rep": 70,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 711.0466,
+      "ms": 1003
+    },
+    {
+      "rep": 71,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 779.2153,
+      "ms": 1068
+    },
+    {
+      "rep": 72,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 661.7576,
+      "ms": 927
+    },
+    {
+      "rep": 73,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 740.7576,
+      "ms": 1015
+    },
+    {
+      "rep": 74,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 636.6388,
+      "ms": 956
+    },
+    {
+      "rep": 75,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 639.465,
+      "ms": 911
+    },
+    {
+      "rep": 76,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 1115.7368,
+      "ms": 1382
+    },
+    {
+      "rep": 77,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 738.848,
+      "ms": 1052
+    },
+    {
+      "rep": 78,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 696.4952,
+      "ms": 965
+    },
+    {
+      "rep": 79,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 652.0112,
+      "ms": 926
+    },
+    {
+      "rep": 80,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 661.0536,
+      "ms": 929
+    },
+    {
+      "rep": 81,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 695.4186,
+      "ms": 951
+    },
+    {
+      "rep": 82,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 646.9766,
+      "ms": 960
+    },
+    {
+      "rep": 83,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 659.4927,
+      "ms": 929
+    },
+    {
+      "rep": 84,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 742.1667,
+      "ms": 1025
+    },
+    {
+      "rep": 85,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 696.8534,
+      "ms": 964
+    },
+    {
+      "rep": 86,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 727.1731,
+      "ms": 1002
+    },
+    {
+      "rep": 87,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 756.4924,
+      "ms": 1021
+    },
+    {
+      "rep": 88,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 710.1172,
+      "ms": 987
+    },
+    {
+      "rep": 89,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 689.642,
+      "ms": 955
+    },
+    {
+      "rep": 90,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 753.7281,
+      "ms": 1085
+    },
+    {
+      "rep": 91,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 712.1182,
+      "ms": 1005
+    },
+    {
+      "rep": 92,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 759.0604,
+      "ms": 1032
+    },
+    {
+      "rep": 93,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 722.2176,
+      "ms": 998
+    },
+    {
+      "rep": 94,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 979.3838,
+      "ms": 1455
+    },
+    {
+      "rep": 95,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 1126.8986,
+      "ms": 1524
+    },
+    {
+      "rep": 96,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 1035.8459,
+      "ms": 1507
+    },
+    {
+      "rep": 97,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 898.0284,
+      "ms": 1498
+    },
+    {
+      "rep": 98,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 1060.2251,
+      "ms": 1939
+    },
+    {
+      "rep": 99,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 1020.6534,
+      "ms": 1422
+    },
+    {
+      "rep": 100,
+      "outcome": "INVARIANT_HELD",
+      "observed": {
+        "concurrentSent": 50,
+        "successes": 1,
+        "duplicates": 0,
+        "zeroSuccess": false,
+        "statuses": {
+          "200": 1,
+          "403": 49
+        },
+        "dbErrors": 0,
+        "sensitiveSuccessEvents": 1
+      },
+      "counted": {
+        "attempts": 50,
+        "successes": 1
+      },
+      "latencyMs": 1046.4844,
+      "ms": 1453
+    }
+  ]
+}
