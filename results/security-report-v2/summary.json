@@ -1,0 +1,1245 @@
+[
+  {
+    "test": "T01",
+    "name": "Stolen access JWT on an ordinary endpoint",
+    "config": "A",
+    "reps": 30,
+    "predicted": "BOUNDARY",
+    "predictedLabel": "BOUNDARY",
+    "outcomes": {
+      "BOUNDARY": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": null,
+    "latencyMs": {
+      "median": 2.2533,
+      "p95": 5.436
+    }
+  },
+  {
+    "test": "T02",
+    "name": "Stolen access JWT on the sensitive endpoint, no second factor",
+    "config": "A",
+    "reps": 30,
+    "predicted": "SUCCEEDS",
+    "predictedLabel": "SUCCEEDS",
+    "outcomes": {
+      "SUCCEEDS": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 30,
+      "successes": 30,
+      "rate": 1
+    },
+    "latencyMs": {
+      "median": 240.7414,
+      "p95": 455.5146
+    }
+  },
+  {
+    "test": "T21",
+    "name": "Tampered claims / wrong secret",
+    "config": "A",
+    "reps": 30,
+    "predicted": "BLOCKED",
+    "predictedLabel": "BLOCKED",
+    "outcomes": {
+      "BLOCKED": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 150,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": 10.6358,
+      "p95": 13.438
+    }
+  },
+  {
+    "test": "T22",
+    "name": "Algorithm manipulation (none, HS384, RS256 key confusion)",
+    "config": "A",
+    "reps": 30,
+    "predicted": "BLOCKED",
+    "predictedLabel": "BLOCKED",
+    "outcomes": {
+      "BLOCKED": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 120,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": 8.0702,
+      "p95": 12.2592
+    }
+  },
+  {
+    "test": "T23",
+    "name": "Claim validation (exp, nbf, iss, aud, type, missing claims)",
+    "config": "A",
+    "reps": 30,
+    "predicted": "BLOCKED",
+    "predictedLabel": "BLOCKED",
+    "outcomes": {
+      "BLOCKED": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 240,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": 8.7021,
+      "p95": 11.6861
+    }
+  },
+  {
+    "test": "T24",
+    "name": "Reuse of access and refresh JWTs after logout",
+    "config": "A",
+    "reps": 30,
+    "predicted": "BLOCKED",
+    "predictedLabel": "BLOCKED",
+    "outcomes": {
+      "BLOCKED": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 30,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": 9.8025,
+      "p95": 18.9082
+    }
+  },
+  {
+    "test": "T01",
+    "name": "Stolen access JWT on an ordinary endpoint",
+    "config": "B",
+    "reps": 30,
+    "predicted": "BOUNDARY",
+    "predictedLabel": "BOUNDARY",
+    "outcomes": {
+      "BOUNDARY": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": null,
+    "latencyMs": {
+      "median": 1.7929,
+      "p95": 4.5702
+    }
+  },
+  {
+    "test": "T02",
+    "name": "Stolen access JWT on the sensitive endpoint, no second factor",
+    "config": "B",
+    "reps": 30,
+    "predicted": "SUCCEEDS",
+    "predictedLabel": "SUCCEEDS",
+    "outcomes": {
+      "SUCCEEDS": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 30,
+      "successes": 30,
+      "rate": 1
+    },
+    "latencyMs": {
+      "median": 238.2311,
+      "p95": 246.414
+    }
+  },
+  {
+    "test": "T03",
+    "name": "Stolen refresh JWT (a: attacker rotates, b: replay detected, c: sensitive op)",
+    "config": "B",
+    "reps": 30,
+    "predicted": {
+      "a": "BOUNDARY",
+      "b": "DETECTED",
+      "c": "SUCCEEDS"
+    },
+    "predictedLabel": "a: BOUNDARY, b: DETECTED, c: SUCCEEDS",
+    "outcomes": {
+      "a: BOUNDARY, b: DETECTED, c: SUCCEEDS": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 30,
+      "successes": 30,
+      "rate": 1
+    },
+    "latencyMs": {
+      "median": 21.0301,
+      "p95": 26.4006
+    }
+  },
+  {
+    "test": "T04",
+    "name": "Replay of a rotated refresh JWT",
+    "config": "B",
+    "reps": 30,
+    "predicted": "BLOCKED",
+    "predictedLabel": "BLOCKED",
+    "outcomes": {
+      "BLOCKED": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 30,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": 21.143,
+      "p95": 24.2959
+    }
+  },
+  {
+    "test": "T21",
+    "name": "Tampered claims / wrong secret",
+    "config": "B",
+    "reps": 30,
+    "predicted": "BLOCKED",
+    "predictedLabel": "BLOCKED",
+    "outcomes": {
+      "BLOCKED": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 150,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": 9.1972,
+      "p95": 12.2328
+    }
+  },
+  {
+    "test": "T22",
+    "name": "Algorithm manipulation (none, HS384, RS256 key confusion)",
+    "config": "B",
+    "reps": 30,
+    "predicted": "BLOCKED",
+    "predictedLabel": "BLOCKED",
+    "outcomes": {
+      "BLOCKED": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 120,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": 9.1817,
+      "p95": 14.9308
+    }
+  },
+  {
+    "test": "T23",
+    "name": "Claim validation (exp, nbf, iss, aud, type, missing claims)",
+    "config": "B",
+    "reps": 30,
+    "predicted": "BLOCKED",
+    "predictedLabel": "BLOCKED",
+    "outcomes": {
+      "BLOCKED": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 270,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": 8.9229,
+      "p95": 16.7047
+    }
+  },
+  {
+    "test": "T24",
+    "name": "Reuse of access and refresh JWTs after logout",
+    "config": "B",
+    "reps": 30,
+    "predicted": "BLOCKED",
+    "predictedLabel": "BLOCKED",
+    "outcomes": {
+      "BLOCKED": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 60,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": 9.0763,
+      "p95": 12.3678
+    }
+  },
+  {
+    "test": "T01",
+    "name": "Stolen access JWT on an ordinary endpoint",
+    "config": "C",
+    "reps": 30,
+    "predicted": "BOUNDARY",
+    "predictedLabel": "BOUNDARY",
+    "outcomes": {
+      "BOUNDARY": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": null,
+    "latencyMs": {
+      "median": 2.1219,
+      "p95": 4.2973
+    }
+  },
+  {
+    "test": "T02",
+    "name": "Stolen access JWT on the sensitive endpoint, no second factor",
+    "config": "C",
+    "reps": 30,
+    "predicted": "BLOCKED",
+    "predictedLabel": "BLOCKED",
+    "outcomes": {
+      "BLOCKED": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 30,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": 9.4342,
+      "p95": 12.9779
+    }
+  },
+  {
+    "test": "T03",
+    "name": "Stolen refresh JWT (a: attacker rotates, b: replay detected, c: sensitive op)",
+    "config": "C",
+    "reps": 30,
+    "predicted": {
+      "a": "BOUNDARY",
+      "b": "DETECTED",
+      "c": "BLOCKED"
+    },
+    "predictedLabel": "a: BOUNDARY, b: DETECTED, c: BLOCKED",
+    "outcomes": {
+      "a: BOUNDARY, b: DETECTED, c: BLOCKED": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 30,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": 20.9536,
+      "p95": 29.9932
+    }
+  },
+  {
+    "test": "T04",
+    "name": "Replay of a rotated refresh JWT",
+    "config": "C",
+    "reps": 30,
+    "predicted": "BLOCKED",
+    "predictedLabel": "BLOCKED",
+    "outcomes": {
+      "BLOCKED": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 30,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": 18.961,
+      "p95": 32.0641
+    }
+  },
+  {
+    "test": "T05",
+    "name": "Replay of a used OTT",
+    "config": "C",
+    "reps": 30,
+    "predicted": "BLOCKED",
+    "predictedLabel": "BLOCKED",
+    "outcomes": {
+      "BLOCKED": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 30,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": 18.5315,
+      "p95": 23.3023
+    }
+  },
+  {
+    "test": "T06",
+    "name": "Expired OTT (2 s lifetime, submitted after 3 s)",
+    "config": "C",
+    "reps": 30,
+    "predicted": "BLOCKED",
+    "predictedLabel": "BLOCKED",
+    "outcomes": {
+      "BLOCKED": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 30,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": 42.0113,
+      "p95": 77.9986
+    }
+  },
+  {
+    "test": "T07",
+    "name": "Random, bit-flipped and empty OTTs",
+    "config": "C",
+    "reps": 30,
+    "predicted": "BLOCKED",
+    "predictedLabel": "BLOCKED",
+    "outcomes": {
+      "BLOCKED": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 90,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": 11.9831,
+      "p95": 17.9365
+    }
+  },
+  {
+    "test": "T08",
+    "name": "Valid OTT without an access JWT",
+    "config": "C",
+    "reps": 30,
+    "predicted": "BLOCKED",
+    "predictedLabel": "BLOCKED",
+    "outcomes": {
+      "BLOCKED": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 30,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": 9.8897,
+      "p95": 11.9889
+    }
+  },
+  {
+    "test": "T09",
+    "name": "Valid access JWT, second factor omitted",
+    "config": "C",
+    "reps": 30,
+    "predicted": "BLOCKED",
+    "predictedLabel": "BLOCKED",
+    "outcomes": {
+      "BLOCKED": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 30,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": 9.3499,
+      "p95": 17.9019
+    }
+  },
+  {
+    "test": "T10",
+    "name": "User B's JWT with user A's OTT",
+    "config": "C",
+    "reps": 30,
+    "predicted": "BLOCKED",
+    "predictedLabel": "BLOCKED",
+    "outcomes": {
+      "BLOCKED": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 30,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": 17.8496,
+      "p95": 23.0302
+    }
+  },
+  {
+    "test": "T11",
+    "name": "OTT for confirm_email presented at change-password (purpose)",
+    "config": "C",
+    "reps": 30,
+    "predicted": "BLOCKED",
+    "predictedLabel": "BLOCKED",
+    "outcomes": {
+      "BLOCKED": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 30,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": 18.7147,
+      "p95": 38.5351
+    }
+  },
+  {
+    "test": "T12",
+    "name": "OTT for confirm_email presented at update-security-settings (endpoint)",
+    "config": "C",
+    "reps": 30,
+    "predicted": "BLOCKED",
+    "predictedLabel": "BLOCKED",
+    "outcomes": {
+      "BLOCKED": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 30,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": 19.3297,
+      "p95": 23.4572
+    }
+  },
+  {
+    "test": "T13",
+    "name": "OTT for POST confirm-email presented as PUT (method)",
+    "config": "C",
+    "reps": 30,
+    "predicted": "BLOCKED",
+    "predictedLabel": "BLOCKED",
+    "outcomes": {
+      "BLOCKED": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 30,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": 18.839,
+      "p95": 27.1644
+    }
+  },
+  {
+    "test": "T14",
+    "name": "Context-spoofing headers; path variants of the same route",
+    "config": "C",
+    "reps": 30,
+    "predicted": "BLOCKED",
+    "predictedLabel": "BLOCKED",
+    "outcomes": {
+      "BLOCKED": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 60,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": 18.5974,
+      "p95": 35.7475
+    }
+  },
+  {
+    "test": "T15",
+    "name": "2 parallel uses of one OTT",
+    "config": "C",
+    "reps": 100,
+    "predicted": "INVARIANT_HELD",
+    "predictedLabel": "INVARIANT_HELD",
+    "outcomes": {
+      "INVARIANT_HELD": 100
+    },
+    "matchesPrediction": 100,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 200,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": 40.1644,
+      "p95": 56.8069
+    },
+    "invariant": {
+      "runs": 100,
+      "violations": 0,
+      "violationRate": 0,
+      "upper95WhenZero": 0.029513049607039932,
+      "concurrentRequestsSent": 200,
+      "successfulConsumptions": 100,
+      "duplicateSuccesses": 0,
+      "dbErrors": 0,
+      "runsWithZeroSuccess": 0
+    }
+  },
+  {
+    "test": "T16",
+    "name": "20 parallel uses of one OTT",
+    "config": "C",
+    "reps": 100,
+    "predicted": "INVARIANT_HELD",
+    "predictedLabel": "INVARIANT_HELD",
+    "outcomes": {
+      "INVARIANT_HELD": 100
+    },
+    "matchesPrediction": 100,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 2000,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": 243.646,
+      "p95": 280.4586
+    },
+    "invariant": {
+      "runs": 100,
+      "violations": 0,
+      "violationRate": 0,
+      "upper95WhenZero": 0.029513049607039932,
+      "concurrentRequestsSent": 2000,
+      "successfulConsumptions": 100,
+      "duplicateSuccesses": 0,
+      "dbErrors": 0,
+      "runsWithZeroSuccess": 0
+    }
+  },
+  {
+    "test": "T17",
+    "name": "50 parallel uses of one OTT",
+    "config": "C",
+    "reps": 100,
+    "predicted": "INVARIANT_HELD",
+    "predictedLabel": "INVARIANT_HELD",
+    "outcomes": {
+      "INVARIANT_HELD": 100
+    },
+    "matchesPrediction": 100,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 5000,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": 710.1172,
+      "p95": 1035.8459
+    },
+    "invariant": {
+      "runs": 100,
+      "violations": 0,
+      "violationRate": 0,
+      "upper95WhenZero": 0.029513049607039932,
+      "concurrentRequestsSent": 5000,
+      "successfulConsumptions": 100,
+      "duplicateSuccesses": 0,
+      "dbErrors": 0,
+      "runsWithZeroSuccess": 0
+    }
+  },
+  {
+    "test": "T18",
+    "name": "Invalid-OTT flooding (per-user, per-IP, per-user across IPs)",
+    "config": "C",
+    "reps": 30,
+    "predicted": "RATE_LIMITED",
+    "predictedLabel": "RATE_LIMITED",
+    "outcomes": {
+      "RATE_LIMITED": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 4290,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": 11.2417,
+      "p95": 18.7305
+    }
+  },
+  {
+    "test": "T19",
+    "name": "Superseded OTT",
+    "config": "C",
+    "reps": 30,
+    "predicted": "BLOCKED",
+    "predictedLabel": "BLOCKED",
+    "outcomes": {
+      "BLOCKED": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 30,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": 18.9744,
+      "p95": 23.3542
+    }
+  },
+  {
+    "test": "T20",
+    "name": "OTT-issuance flooding",
+    "config": "C",
+    "reps": 30,
+    "predicted": "RATE_LIMITED",
+    "predictedLabel": "RATE_LIMITED",
+    "outcomes": {
+      "RATE_LIMITED": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 600,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": 19.9479,
+      "p95": 26.1658
+    }
+  },
+  {
+    "test": "T21",
+    "name": "Tampered claims / wrong secret",
+    "config": "C",
+    "reps": 30,
+    "predicted": "BLOCKED",
+    "predictedLabel": "BLOCKED",
+    "outcomes": {
+      "BLOCKED": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 150,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": 9.5359,
+      "p95": 12.6396
+    }
+  },
+  {
+    "test": "T22",
+    "name": "Algorithm manipulation (none, HS384, RS256 key confusion)",
+    "config": "C",
+    "reps": 30,
+    "predicted": "BLOCKED",
+    "predictedLabel": "BLOCKED",
+    "outcomes": {
+      "BLOCKED": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 120,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": 8.8137,
+      "p95": 12.3651
+    }
+  },
+  {
+    "test": "T23",
+    "name": "Claim validation (exp, nbf, iss, aud, type, missing claims)",
+    "config": "C",
+    "reps": 30,
+    "predicted": "BLOCKED",
+    "predictedLabel": "BLOCKED",
+    "outcomes": {
+      "BLOCKED": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 270,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": 9.5393,
+      "p95": 11.9588
+    }
+  },
+  {
+    "test": "T24",
+    "name": "Reuse of access and refresh JWTs after logout",
+    "config": "C",
+    "reps": 30,
+    "predicted": "BLOCKED",
+    "predictedLabel": "BLOCKED",
+    "outcomes": {
+      "BLOCKED": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 60,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": 9.4314,
+      "p95": 13.9266
+    }
+  },
+  {
+    "test": "T25",
+    "name": "Out-of-order workflow (control)",
+    "config": "C",
+    "reps": 30,
+    "predicted": "STEP1_BLOCKED_FINAL_OK",
+    "predictedLabel": "STEP1_BLOCKED_FINAL_OK",
+    "outcomes": {
+      "STEP1_BLOCKED_FINAL_OK": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": null,
+    "latencyMs": {
+      "median": 241.9687,
+      "p95": 250.9532
+    }
+  },
+  {
+    "test": "T26",
+    "name": "Access JWT + captured unused OTT",
+    "config": "C",
+    "reps": 30,
+    "predicted": "BOUNDARY",
+    "predictedLabel": "BOUNDARY",
+    "outcomes": {
+      "BOUNDARY": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": null,
+    "latencyMs": {
+      "median": 243.8129,
+      "p95": 251.6867
+    }
+  },
+  {
+    "test": "T27",
+    "name": "20 parallel OTT issuance requests",
+    "config": "C",
+    "reps": 100,
+    "predicted": "INVARIANT_HELD",
+    "predictedLabel": "INVARIANT_HELD",
+    "outcomes": {
+      "INVARIANT_HELD": 100
+    },
+    "matchesPrediction": 100,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 2000,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": null,
+      "p95": null
+    },
+    "invariant": {
+      "runs": 100,
+      "violations": 0,
+      "violationRate": 0,
+      "upper95WhenZero": 0.029513049607039932,
+      "concurrentRequestsSent": 2000,
+      "successfulConsumptions": 100,
+      "duplicateSuccesses": 0,
+      "dbErrors": 0,
+      "runsWithZeroSuccess": 0
+    }
+  },
+  {
+    "test": "T01",
+    "name": "Stolen access JWT on an ordinary endpoint",
+    "config": "D",
+    "reps": 30,
+    "predicted": "BOUNDARY",
+    "predictedLabel": "BOUNDARY",
+    "outcomes": {
+      "BOUNDARY": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": null,
+    "latencyMs": {
+      "median": 1.651,
+      "p95": 4.7299
+    }
+  },
+  {
+    "test": "T02",
+    "name": "Stolen access JWT on the sensitive endpoint, no second factor",
+    "config": "D",
+    "reps": 30,
+    "predicted": "BLOCKED",
+    "predictedLabel": "BLOCKED",
+    "outcomes": {
+      "BLOCKED": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 30,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": 9.4042,
+      "p95": 12.9537
+    }
+  },
+  {
+    "test": "T03",
+    "name": "Stolen refresh JWT (a: attacker rotates, b: replay detected, c: sensitive op)",
+    "config": "D",
+    "reps": 30,
+    "predicted": {
+      "a": "BOUNDARY",
+      "b": "DETECTED",
+      "c": "BLOCKED"
+    },
+    "predictedLabel": "a: BOUNDARY, b: DETECTED, c: BLOCKED",
+    "outcomes": {
+      "a: BOUNDARY, b: DETECTED, c: BLOCKED": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 30,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": 20.9581,
+      "p95": 24.3099
+    }
+  },
+  {
+    "test": "T04",
+    "name": "Replay of a rotated refresh JWT",
+    "config": "D",
+    "reps": 30,
+    "predicted": "BLOCKED",
+    "predictedLabel": "BLOCKED",
+    "outcomes": {
+      "BLOCKED": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 30,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": 20.5946,
+      "p95": 31.7303
+    }
+  },
+  {
+    "test": "T09",
+    "name": "Valid access JWT, second factor omitted",
+    "config": "D",
+    "reps": 30,
+    "predicted": "BLOCKED",
+    "predictedLabel": "BLOCKED",
+    "outcomes": {
+      "BLOCKED": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 30,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": 9.1177,
+      "p95": 12.5413
+    }
+  },
+  {
+    "test": "T21",
+    "name": "Tampered claims / wrong secret",
+    "config": "D",
+    "reps": 30,
+    "predicted": "BLOCKED",
+    "predictedLabel": "BLOCKED",
+    "outcomes": {
+      "BLOCKED": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 150,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": 9.8227,
+      "p95": 12.6115
+    }
+  },
+  {
+    "test": "T22",
+    "name": "Algorithm manipulation (none, HS384, RS256 key confusion)",
+    "config": "D",
+    "reps": 30,
+    "predicted": "BLOCKED",
+    "predictedLabel": "BLOCKED",
+    "outcomes": {
+      "BLOCKED": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 120,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": 8.3143,
+      "p95": 11.9148
+    }
+  },
+  {
+    "test": "T23",
+    "name": "Claim validation (exp, nbf, iss, aud, type, missing claims)",
+    "config": "D",
+    "reps": 30,
+    "predicted": "BLOCKED",
+    "predictedLabel": "BLOCKED",
+    "outcomes": {
+      "BLOCKED": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 270,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": 8.9656,
+      "p95": 12.4963
+    }
+  },
+  {
+    "test": "T24",
+    "name": "Reuse of access and refresh JWTs after logout",
+    "config": "D",
+    "reps": 30,
+    "predicted": "BLOCKED",
+    "predictedLabel": "BLOCKED",
+    "outcomes": {
+      "BLOCKED": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 60,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": 10.826,
+      "p95": 14.2034
+    }
+  },
+  {
+    "test": "T25",
+    "name": "Out-of-order workflow (control)",
+    "config": "D",
+    "reps": 30,
+    "predicted": "STEP1_BLOCKED_FINAL_OK",
+    "predictedLabel": "STEP1_BLOCKED_FINAL_OK",
+    "outcomes": {
+      "STEP1_BLOCKED_FINAL_OK": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": null,
+    "latencyMs": {
+      "median": 456.0138,
+      "p95": 494.936
+    }
+  },
+  {
+    "test": "T28",
+    "name": "Password guessing against re-entry (Config D)",
+    "config": "D",
+    "reps": 30,
+    "predicted": "RATE_LIMITED",
+    "predictedLabel": "RATE_LIMITED",
+    "outcomes": {
+      "RATE_LIMITED": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": {
+      "attempts": 3000,
+      "successes": 0,
+      "rate": 0
+    },
+    "latencyMs": {
+      "median": 234.854,
+      "p95": 531.1457
+    }
+  },
+  {
+    "test": "T29",
+    "name": "Stolen access JWT + stolen current password (Config D)",
+    "config": "D",
+    "reps": 30,
+    "predicted": "BOUNDARY",
+    "predictedLabel": "BOUNDARY",
+    "outcomes": {
+      "BOUNDARY": 30
+    },
+    "matchesPrediction": 30,
+    "allMatch": true,
+    "errors": 0,
+    "attackSuccess": null,
+    "latencyMs": {
+      "median": 461.5249,
+      "p95": 515.4392
+    }
+  }
+]
