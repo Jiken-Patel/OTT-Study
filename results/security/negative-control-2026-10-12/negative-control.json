@@ -1,0 +1,21 @@
+{
+  "startedAt": "2026-10-12T11:38:39.145Z",
+  "unsafeDelayMs": 20,
+  "runsPerTest": 100,
+  "tests": {
+    "T16": {
+      "concurrent": 20,
+      "runs": 100,
+      "violations": 100,
+      "maxSuccessesInOneRun": 20
+    },
+    "T17": {
+      "concurrent": 50,
+      "runs": 100,
+      "violations": 100,
+      "maxSuccessesInOneRun": 50
+    }
+  },
+  "harnessHasPower": true,
+  "note": "The race harness detected the deliberately unsafe consume."
+}
