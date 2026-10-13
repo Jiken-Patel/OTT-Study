@@ -20,6 +20,7 @@ function parseStat(text) {
 function parseStatm(text, pageSize = PAGE) { return Number(text.trim().split(/\s+/)[1]) * pageSize; }
 
 const hasProc = fs.existsSync('/proc/self/stat');
+const unsupported = process.platform === 'win32'; // no /proc and no ps: record nothing rather than wrong numbers
 
 function readProc(pid) {
   const st = parseStat(fs.readFileSync(`/proc/${pid}/stat`, 'utf8'));
@@ -33,6 +34,7 @@ function readPs(pid) {
 function createSampler(pids) { // pids: { name: pid | null }
   const samples = []; const last = {}; let timer = null;
   const tick = () => {
+    if (unsupported) return;
     const now = Date.now();
     for (const [name, pid] of Object.entries(pids)) {
       if (!pid) continue;
@@ -47,7 +49,7 @@ function createSampler(pids) { // pids: { name: pid | null }
     }
   };
   return {
-    method: hasProc ? 'proc-delta' : 'ps-average',
+    method: unsupported ? 'unsupported' : hasProc ? 'proc-delta' : 'ps-average',
     start() { tick(); timer = setInterval(tick, 1000); },
     stop() { clearInterval(timer); tick(); return samples; },
   };

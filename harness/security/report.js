@@ -52,10 +52,10 @@ function metadata({ harness, args, started, finished }) {
     note: 'Predicted outcomes in this report are hypotheses from EXPERIMENTS.md section 9; only the observed counts are results.' };
 }
 
-function writeOutputs(outDir, { meta, summaries, rawByCell }) {
+function writeOutputs(outDir, { meta, summaries, rawByCell, includeRaw = true }) {
   fs.mkdirSync(outDir, { recursive: true });
   if (fs.readdirSync(outDir).filter((f) => f !== 'negative-control').length) throw new Error(`output directory ${outDir} is not empty (raw data is never overwritten)`);
-  for (const [cfg, tests] of Object.entries(rawByCell)) {
+  if (includeRaw) for (const [cfg, tests] of Object.entries(rawByCell)) {
     fs.mkdirSync(path.join(outDir, `config-${cfg}`), { recursive: true });
     for (const [id, payload] of Object.entries(tests)) fs.writeFileSync(path.join(outDir, `config-${cfg}`, `${id}.json`), JSON.stringify(payload, null, 2));
   }
@@ -77,7 +77,7 @@ function writeOutputs(outDir, { meta, summaries, rawByCell }) {
   lines.push('', bad.length ? `## ⚠ ${bad.length} cell(s) differ from the prediction` : '## All executed cells match the prediction', '');
   for (const s of bad) lines.push(`- **${s.test} / Config ${s.config}**: predicted ${s.predictedLabel}; observed ${JSON.stringify(s.outcomes)}${s.errors ? ` (${s.errors} errors)` : ''}`);
   const rates = summaries.filter((s) => s.attackSuccess);
-  lines.push('', '## Attack-success counts (BOUNDARY cases excluded)', '', '| Test | Config | successful / attempts |', '|------|--------|-----------------------|');
+  lines.push('', '## Attack-success counts (BOUNDARY cases excluded)', '', 'Unauthorized successes over attempts. For the concurrency tests T15-T17 only successes beyond the ONE permitted consumption count.', '', '| Test | Config | successful / attempts |', '|------|--------|-----------------------|');
   for (const s of rates) lines.push(`| ${s.test} | ${s.config} | ${s.attackSuccess.successes} / ${s.attackSuccess.attempts} |`);
   const races = summaries.filter((s) => s.invariant);
   if (races.length) {

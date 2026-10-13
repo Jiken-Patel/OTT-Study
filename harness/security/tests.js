@@ -196,7 +196,8 @@ function raceConsume(n) {
     return res(successes <= 1 && successEvents <= 1 ? 'INVARIANT_HELD' : 'INVARIANT_VIOLATED',
       { concurrentSent: n, successes, duplicates: Math.max(0, successes - 1), zeroSuccess: successes === 0, statuses: statusSummary(statuses),
         dbErrors: serverErrors + lockEvents, sensitiveSuccessEvents: successEvents },
-      { attempts: n, successes }, Number(process.hrtime.bigint() - t0) / 1e6);
+      // The attacker holds one VALID OTT, so exactly one success is permitted. Only successes beyond that are unauthorized.
+      { attempts: n, successes: Math.max(0, successes - 1) }, Number(process.hrtime.bigint() - t0) / 1e6);
   };
 }
 T.T15 = { name: '2 parallel uses of one OTT', cap: 'AC9', race: true, run: raceConsume(2) };
@@ -353,7 +354,7 @@ T.T27 = { name: '20 parallel OTT issuance requests', cap: 'AC9', race: true, run
   const consumeOk = results.filter((x) => x === 200).length === 1;
   const lockEvents = await ctx.count('DB_LOCK_ERROR', null, u.id);
   return res(stateOk && consumeOk ? 'INVARIANT_HELD' : 'INVARIANT_VIOLATED',
-    { concurrentSent: 20, accepted: k, statuses: statusSummary(statuses), states: s, delivered: msgs.length, consumeStatuses: statusSummary(results),
+    { concurrentSent: 20, accepted: k, successes: results.filter((x) => x === 200).length, statuses: statusSummary(statuses), states: s, delivered: msgs.length, consumeStatuses: statusSummary(results),
       dbErrors: statuses.filter((x) => x >= 500).length + lockEvents }, { attempts: 20, successes: 0 }, null);
 } };
 
