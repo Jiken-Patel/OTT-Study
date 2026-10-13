@@ -1,0 +1,33 @@
+{
+  "valid": true,
+  "invalidReason": null,
+  "attempt": 1,
+  "bench": "P2b",
+  "config": "C",
+  "vus": 10,
+  "run": 2,
+  "warmupS": 2,
+  "measureS": 4,
+  "rateLimitProfile": "off",
+  "appProfile": "development",
+  "seededUsers": 1000,
+  "date": "2026-10-13T14:39:18.673Z",
+  "node": "v23.5.0",
+  "mysql": "8.0.42",
+  "k6": "k6.exe v2.2.0 (commit/00a9a1b7f5, go1.26.5, windows/amd64)",
+  "machine": {
+    "os": "win32 10.0.26300",
+    "cpu": "11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz x8",
+    "memoryGB": 16
+  },
+  "gitCommit": "b6742eaee7bdafef6aaad90ede332dbc2a4de43b",
+  "experimentDocVersion": "1.3",
+  "experimentVersion": "v1",
+  "scheduleSeed": 1,
+  "pids": {
+    "app": 19560,
+    "mysql": null,
+    "sink": 8012,
+    "k6": 10140
+  }
+}
