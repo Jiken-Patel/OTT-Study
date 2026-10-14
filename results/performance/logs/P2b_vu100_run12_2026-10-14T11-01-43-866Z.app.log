@@ -1,0 +1,12 @@
+listening on :50615 (AUTH_MODE=D)
+security event logging failed: SequelizeConnectionError
+unhandled error: SequelizeConnectionError
+security event logging failed: SequelizeConnectionError
+unhandled error: SequelizeConnectionError
+unhandled error: SequelizeConnectionError
+unhandled error: SequelizeConnectionError
+unhandled error: SequelizeConnectionError
+unhandled error: SequelizeConnectionError
+unhandled error: SequelizeConnectionError
+unhandled error: SequelizeConnectionError
+unhandled error: SequelizeConnectionError

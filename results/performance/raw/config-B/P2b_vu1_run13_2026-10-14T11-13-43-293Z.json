@@ -1,0 +1,73 @@
+{
+  "summary": {
+    "meta": {
+      "bench": "P2b",
+      "config": "B",
+      "vus": 1,
+      "warmupS": 10,
+      "measureS": 30,
+      "scenarioStartMs": 1791976429759,
+      "testRunDurationMs": 40005.2014
+    },
+    "op": {
+      "count": 2818,
+      "failed": 0,
+      "mean": 10.123764442867289,
+      "std": 4.335151209146128,
+      "min": 6.3548,
+      "median": 9.152000000000001,
+      "p95": 15.97859,
+      "p99": 27.853013,
+      "max": 87.4311,
+      "okMedian": 9.152000000000001,
+      "okP95": 15.97859,
+      "throughput": 93.93333333333334
+    },
+    "issue": {
+      "count": 0,
+      "failed": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "median": null,
+      "p95": null,
+      "p99": null,
+      "max": null,
+      "okMedian": null,
+      "okP95": null,
+      "throughput": 0
+    },
+    "workflow": {
+      "count": 2818,
+      "failed": 0,
+      "mean": 10.123764442867289,
+      "std": 4.335151209146128,
+      "min": 6.3548,
+      "median": 9.152000000000001,
+      "p95": 15.97859,
+      "p99": 27.853013,
+      "max": 87.4311,
+      "okMedian": null,
+      "okP95": null,
+      "throughput": 93.93333333333334
+    },
+    "harness": {
+      "requests": 2818,
+      "failures": 0
+    },
+    "iterations": {
+      "attempted": 2818,
+      "complete": 2818,
+      "incomplete": 0
+    }
+  },
+  "resources": {
+    "window": {
+      "fromMs": 1791976439759,
+      "toMs": 1791976469759
+    },
+    "method": "unsupported",
+    "perProcess": {}
+  },
+  "samples": []
+}
