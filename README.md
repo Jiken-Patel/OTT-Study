@@ -1,4 +1,4 @@
-# ott-study — Stages 1–7 (implementation, security harness, benchmarks and analysis)
+# ott-study — Stages 1–7(implementation, security harness, benchmarks and analysis)
 
 Implements the database layer defined by `EXPERIMENTS.md` v1.3 (sections 3, 7, 8.2):
 
