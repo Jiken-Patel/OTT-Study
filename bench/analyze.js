@@ -27,12 +27,13 @@ function* walk(dir) {
 }
 
 /** Load every run; keep the last valid attempt per (bench, config, vus, run). */
-function loadRuns(inDir) {
+function loadRuns(inDir, exclude = []) {
   const raw = path.join(inDir, 'raw');
-  const best = new Map(); const invalid = []; let total = 0;
+  const best = new Map(); const invalid = []; let total = 0; const excluded = [];
   for (const f of walk(raw)) {
     if (!f.endsWith('.meta.json')) continue;
     total += 1;
+    if (exclude.some((x) => path.basename(f).includes(x))) { excluded.push(path.basename(f)); continue; } // sensitivity analysis only
     const meta = JSON.parse(fs.readFileSync(f, 'utf8'));
     const key = `${meta.bench}|${meta.config}|${meta.vus}|${meta.run}`;
     if (!meta.valid) { invalid.push({ key, attempt: meta.attempt, reason: meta.invalidReason }); continue; }
@@ -40,7 +41,7 @@ function loadRuns(inDir) {
     const prev = best.get(key);
     if (!prev || meta.attempt > prev.meta.attempt) best.set(key, { meta, data });
   }
-  return { runs: [...best.values()], invalid, totalAttempts: total };
+  return { runs: [...best.values()], invalid, totalAttempts: total, excluded };
 }
 
 const err = (c) => (c.count ? c.failed / c.count : 0);
@@ -57,8 +58,8 @@ function metricsFor(bench, run) {
     memApp: mem('app'), memMysql: mem('mysql'), memSink: mem('sink'), appCpuPeak: proc.app ? proc.app.cpuPeakPct : null };
 }
 
-function analyze(inDir, { bootstrap = 10000, expectedRuns = null } = {}) {
-  const { runs, invalid, totalAttempts } = loadRuns(inDir);
+function analyze(inDir, { bootstrap = 10000, expectedRuns = null, exclude = [] } = {}) {
+  const { runs, invalid, totalAttempts, excluded } = loadRuns(inDir, exclude);
   // cells[bench][vus][config] = [metrics per run]
   const cells = {};
   const add = (bench, run) => {
@@ -108,7 +109,7 @@ function analyze(inDir, { bootstrap = 10000, expectedRuns = null } = {}) {
     const adj = holm(idx.map(([c]) => c.p));
     idx.forEach(([c], k) => { c.p_holm = adj[k]; });
   }
-  return { conditions, comparisons, invalid, totalAttempts, validRuns: runs.length, expectedRuns };
+  return { conditions, comparisons, invalid, totalAttempts, validRuns: runs.length, expectedRuns, excluded };
 }
 
 // ------------------------------------------------------------------ output
@@ -125,6 +126,7 @@ function report(res, meta) {
   const L = [];
   L.push('# Performance analysis', '');
   L.push(`Valid runs analysed: **${res.validRuns}** (${res.totalAttempts} attempts on disk, ${res.invalid.length} invalid attempt(s) excluded).`);
+  if (res.excluded && res.excluded.length) L.push('', `> **SENSITIVITY ANALYSIS.** ${res.excluded.length} run(s) were excluded on request: ${res.excluded.join(', ')}. This report is not the primary analysis.`);
   if (meta) L.push(`Machine: ${meta.machine.cpu}, ${meta.machine.memoryGB} GB, ${meta.machine.os}; Node ${meta.node}; MySQL ${meta.mysql}; ${meta.k6}; commit ${meta.gitCommit}; warm-up ${meta.warmupS} s, measurement ${meta.measureS} s.`);
   L.push('', '> **Read before interpreting.** The load generator is closed-loop: in Config C each virtual user also performs the issuance request and the OOB sink read, so at equal VU count C sends fewer simultaneous `op` requests than B or D. Compare latencies together with the achieved throughput below, and do not describe a latency difference as pure OTT overhead. Config C\'s cost also includes an in-process loopback HTTP handoff to the sink (likely cheaper than a real mail or SMS call). k6, the application, MySQL and the sink share one machine.', '');
   const byBench = (b) => res.comparisons.filter((c) => c.bench === b);
@@ -161,10 +163,10 @@ function report(res, meta) {
 }
 
 function parseArgs(argv) {
-  const a = { in: 'results/performance', out: null, bootstrap: 10000, runs: null };
+  const a = { in: 'results/performance', out: null, bootstrap: 10000, runs: null, exclude: [] };
   for (let i = 2; i < argv.length; i++) {
     const k = argv[i]; const v = argv[i + 1];
-    if (k === '--in') { a.in = v; i++; } else if (k === '--out') { a.out = v; i++; } else if (k === '--bootstrap') { a.bootstrap = Number(v); i++; } else if (k === '--runs') { a.runs = Number(v); i++; }
+    if (k === '--in') { a.in = v; i++; } else if (k === '--out') { a.out = v; i++; } else if (k === '--bootstrap') { a.bootstrap = Number(v); i++; } else if (k === '--runs') { a.runs = Number(v); i++; } else if (k === '--exclude') { a.exclude = v.split(','); i++; }
     else throw new Error(`unknown argument ${k}`);
   }
   return a;
@@ -173,7 +175,7 @@ function parseArgs(argv) {
 function main() {
   const args = parseArgs(process.argv);
   const out = path.resolve(args.out || path.join(args.in, 'analysis'));
-  const res = analyze(path.resolve(args.in), { bootstrap: args.bootstrap, expectedRuns: args.runs });
+  const res = analyze(path.resolve(args.in), { bootstrap: args.bootstrap, expectedRuns: args.runs, exclude: args.exclude });
   if (!res.validRuns) throw new Error(`no valid runs found under ${args.in}/raw`);
   fs.mkdirSync(out, { recursive: true });
   const any = [...walk(path.join(path.resolve(args.in), 'raw'))].find((f) => f.endsWith('.meta.json'));
